@@ -1,0 +1,72 @@
+{
+  "created_at_utc": "2026-09-23T17:14:45.099966+00:00",
+  "python": "3.14.0",
+  "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2"
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "std_ddof": 1,
+  "total_objective_evaluations": 3000000,
+  "configurations": {
+    "ga_config_a": {
+      "dimension": 7,
+      "lower_bound": -15.0,
+      "upper_bound": 15.0,
+      "population_size": 100,
+      "tournament_size": 3,
+      "crossover_probability": 0.9,
+      "mutation_probability": 0.14285714285714285,
+      "mutation_sigma": 1.5,
+      "elite_count": 1,
+      "evaluation_budget": 50000
+    },
+    "ga_config_b": {
+      "dimension": 7,
+      "lower_bound": -15.0,
+      "upper_bound": 15.0,
+      "population_size": 100,
+      "tournament_size": 3,
+      "crossover_probability": 0.9,
+      "mutation_probability": 0.14285714285714285,
+      "mutation_sigma": 3.0,
+      "elite_count": 1,
+      "evaluation_budget": 50000
+    },
+    "random_search": {
+      "dimension": 7,
+      "lower_bound": -15.0,
+      "upper_bound": 15.0,
+      "population_size": 100,
+      "tournament_size": 3,
+      "crossover_probability": 0.9,
+      "mutation_probability": 0.14285714285714285,
+      "mutation_sigma": 3.0,
+      "elite_count": 1,
+      "evaluation_budget": 50000
+    }
+  }
+}

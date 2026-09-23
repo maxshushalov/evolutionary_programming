@@ -1,0 +1,13 @@
+{
+  "dimension": 7,
+  "lower_bound": -15.0,
+  "upper_bound": 15.0,
+  "population_size": 100,
+  "tournament_size": 3,
+  "crossover_probability": 0.9,
+  "mutation_probability": 0.14285714285714285,
+  "mutation_sigma": 3.0,
+  "elite_count": 1,
+  "evaluation_budget": 50000,
+  "number_of_runs": 20
+}
