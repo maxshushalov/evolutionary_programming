@@ -6,4 +6,6 @@ venv/
 .idea/
 .vscode/
 .DS_Store
+.DS_Store
 .mplconfig/
+lab1_for_chat.txt
