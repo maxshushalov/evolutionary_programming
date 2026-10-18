@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.mplconfig/
+.ipynb_checkpoints/
+
+# Старые локальные материалы, не входящие в сдаваемые работы.
+/lab2/
+/output/
+/tmp/

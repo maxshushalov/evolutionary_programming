@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.mplconfig/
+.DS_Store
+.pytest_cache/
+
+# Локальные пробы и рабочие журналы; полная серия включается в Git.
+results/*
+!results/experiment/
+
+# Личные заметки для подготовки.
+Как читать код.md

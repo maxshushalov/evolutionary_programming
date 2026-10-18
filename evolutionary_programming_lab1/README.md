@@ -8,8 +8,8 @@
 **Цель:** приближённо найти глобальный минимум и сравнить ГА с Random Search
 при одинаковом числе вычислений целевой функции.
 
-Работа находится в `project-1` репозитория `evolutionary_programming`.
-Все команды ниже выполняются **из папки `project-1`**.
+Работа находится в `evolutionary_programming_lab1` репозитория `evolutionary_programming`.
+Все команды ниже выполняются **из папки `evolutionary_programming_lab1`**.
 
 ## Математическая постановка
 
@@ -66,7 +66,7 @@ $$
 ## Структура
 
 ```text
-project-1/
+evolutionary_programming_lab1/
 ├── src/
 │   ├── __init__.py
 │   ├── objective.py          # HGBat и проверка допустимости
@@ -159,7 +159,7 @@ jupyter notebook notebooks/lab1_analysis.ipynb
 ```
 
 Выберите **Python 3 (ipykernel)** из активного `.venv` и выполните **Run All**.
-Ноутбук находит корень проекта из `project-1`, `notebooks` или корня репозитория.
+Ноутбук находит корень проекта из `evolutionary_programming_lab1`, `notebooks` или корня репозитория.
 Он импортирует функции из `src`, читает CSV, показывает сохранённые графики,
 лучший вектор и расстояние до теоретического оптимума. ГА в нём не дублируется.
 Готовый ноутбук содержит выполненные ячейки для просмотра без запуска экспериментов.
@@ -205,11 +205,11 @@ seed. При одинаковых параметрах, seed и окружени
 ## GitHub
 
 Репозиторий: https://github.com/maxshushalov/evolutionary_programming,
-ветка `main`, папка `project-1`.
+ветка `main`, папка `evolutionary_programming_lab1`.
 После дальнейших изменений из корня локального репозитория:
 
 ```bash
-git add project-1
+git add evolutionary_programming_lab1
 git commit -m "Update HGBat laboratory work"
 git push origin main
 ```

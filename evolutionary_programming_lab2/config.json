@@ -1,0 +1,20 @@
+{
+  "days": 7,
+  "min_calories": 1800,
+  "max_calories": 2200,
+  "budget_kopecks": 350000,
+  "min_unique": 15,
+  "max_frequency": 3,
+  "data_seed": 290026,
+  "population_size": 100,
+  "tournament_size": 3,
+  "crossover_probability": 0.9,
+  "bit_mutation_rate": 0.004761904761904762,
+  "swap_probability": 0.5,
+  "elite_count": 2,
+  "penalty_weight": 10.0,
+  "repair_attempts": 100,
+  "evaluation_budget": 50000,
+  "history_interval": 500,
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+}

@@ -1,0 +1,853 @@
+{
+  "limit": 50000,
+  "evaluations": 50000,
+  "candidate_evaluations": 1628,
+  "repair_evaluations": 48372,
+  "repair_accepted": 18407,
+  "repair_calls": 1628,
+  "repair_seconds": 2.7202770287694875,
+  "feasible_evaluations": 1336,
+  "first_feasible_evaluation": 10,
+  "best_menu": [
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  ],
+  "best_result": {
+    "total_cost": 269900,
+    "daily_cost": [
+      37600,
+      36800,
+      40500,
+      34900,
+      35500,
+      47000,
+      37600
+    ],
+    "daily_calories": [
+      1965,
+      1815,
+      1955,
+      1905,
+      1830,
+      2190,
+      1900
+    ],
+    "frequency": [
+      1,
+      1,
+      3,
+      3,
+      2,
+      1,
+      2,
+      1,
+      0,
+      0,
+      0,
+      3,
+      2,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      2,
+      0,
+      0,
+      2,
+      0
+    ],
+    "unique_count": 16,
+    "calorie_shortage": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "calorie_excess": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "budget_excess": 0,
+    "diversity_shortage": 0,
+    "frequency_excess": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "violation": 0.0,
+    "feasible": true,
+    "score": 0.7711428571428571
+  },
+  "history": [
+    {
+      "evaluations": 500,
+      "best_cost": 296400,
+      "feasible_evaluations": 14
+    },
+    {
+      "evaluations": 1000,
+      "best_cost": 289300,
+      "feasible_evaluations": 32
+    },
+    {
+      "evaluations": 1500,
+      "best_cost": 289300,
+      "feasible_evaluations": 38
+    },
+    {
+      "evaluations": 2000,
+      "best_cost": 279100,
+      "feasible_evaluations": 60
+    },
+    {
+      "evaluations": 2500,
+      "best_cost": 279100,
+      "feasible_evaluations": 70
+    },
+    {
+      "evaluations": 3000,
+      "best_cost": 279100,
+      "feasible_evaluations": 85
+    },
+    {
+      "evaluations": 3500,
+      "best_cost": 279100,
+      "feasible_evaluations": 98
+    },
+    {
+      "evaluations": 4000,
+      "best_cost": 279100,
+      "feasible_evaluations": 111
+    },
+    {
+      "evaluations": 4500,
+      "best_cost": 279100,
+      "feasible_evaluations": 125
+    },
+    {
+      "evaluations": 5000,
+      "best_cost": 279100,
+      "feasible_evaluations": 144
+    },
+    {
+      "evaluations": 5500,
+      "best_cost": 277700,
+      "feasible_evaluations": 157
+    },
+    {
+      "evaluations": 6000,
+      "best_cost": 277700,
+      "feasible_evaluations": 172
+    },
+    {
+      "evaluations": 6500,
+      "best_cost": 277700,
+      "feasible_evaluations": 185
+    },
+    {
+      "evaluations": 7000,
+      "best_cost": 277700,
+      "feasible_evaluations": 195
+    },
+    {
+      "evaluations": 7500,
+      "best_cost": 277700,
+      "feasible_evaluations": 200
+    },
+    {
+      "evaluations": 8000,
+      "best_cost": 277700,
+      "feasible_evaluations": 212
+    },
+    {
+      "evaluations": 8500,
+      "best_cost": 277700,
+      "feasible_evaluations": 221
+    },
+    {
+      "evaluations": 9000,
+      "best_cost": 277700,
+      "feasible_evaluations": 233
+    },
+    {
+      "evaluations": 9500,
+      "best_cost": 277700,
+      "feasible_evaluations": 247
+    },
+    {
+      "evaluations": 10000,
+      "best_cost": 277700,
+      "feasible_evaluations": 257
+    },
+    {
+      "evaluations": 10500,
+      "best_cost": 277700,
+      "feasible_evaluations": 272
+    },
+    {
+      "evaluations": 11000,
+      "best_cost": 277700,
+      "feasible_evaluations": 292
+    },
+    {
+      "evaluations": 11500,
+      "best_cost": 277700,
+      "feasible_evaluations": 302
+    },
+    {
+      "evaluations": 12000,
+      "best_cost": 277700,
+      "feasible_evaluations": 307
+    },
+    {
+      "evaluations": 12500,
+      "best_cost": 277700,
+      "feasible_evaluations": 312
+    },
+    {
+      "evaluations": 13000,
+      "best_cost": 277700,
+      "feasible_evaluations": 333
+    },
+    {
+      "evaluations": 13500,
+      "best_cost": 277700,
+      "feasible_evaluations": 351
+    },
+    {
+      "evaluations": 14000,
+      "best_cost": 277700,
+      "feasible_evaluations": 372
+    },
+    {
+      "evaluations": 14500,
+      "best_cost": 277700,
+      "feasible_evaluations": 385
+    },
+    {
+      "evaluations": 15000,
+      "best_cost": 277700,
+      "feasible_evaluations": 403
+    },
+    {
+      "evaluations": 15500,
+      "best_cost": 277700,
+      "feasible_evaluations": 412
+    },
+    {
+      "evaluations": 16000,
+      "best_cost": 277700,
+      "feasible_evaluations": 423
+    },
+    {
+      "evaluations": 16500,
+      "best_cost": 277700,
+      "feasible_evaluations": 438
+    },
+    {
+      "evaluations": 17000,
+      "best_cost": 277700,
+      "feasible_evaluations": 465
+    },
+    {
+      "evaluations": 17500,
+      "best_cost": 277700,
+      "feasible_evaluations": 487
+    },
+    {
+      "evaluations": 18000,
+      "best_cost": 277700,
+      "feasible_evaluations": 495
+    },
+    {
+      "evaluations": 18500,
+      "best_cost": 277700,
+      "feasible_evaluations": 509
+    },
+    {
+      "evaluations": 19000,
+      "best_cost": 277700,
+      "feasible_evaluations": 522
+    },
+    {
+      "evaluations": 19500,
+      "best_cost": 277700,
+      "feasible_evaluations": 540
+    },
+    {
+      "evaluations": 20000,
+      "best_cost": 277700,
+      "feasible_evaluations": 562
+    },
+    {
+      "evaluations": 20500,
+      "best_cost": 277700,
+      "feasible_evaluations": 574
+    },
+    {
+      "evaluations": 21000,
+      "best_cost": 270800,
+      "feasible_evaluations": 587
+    },
+    {
+      "evaluations": 21500,
+      "best_cost": 270800,
+      "feasible_evaluations": 597
+    },
+    {
+      "evaluations": 22000,
+      "best_cost": 270800,
+      "feasible_evaluations": 603
+    },
+    {
+      "evaluations": 22500,
+      "best_cost": 270800,
+      "feasible_evaluations": 612
+    },
+    {
+      "evaluations": 23000,
+      "best_cost": 270800,
+      "feasible_evaluations": 625
+    },
+    {
+      "evaluations": 23500,
+      "best_cost": 270800,
+      "feasible_evaluations": 630
+    },
+    {
+      "evaluations": 24000,
+      "best_cost": 270800,
+      "feasible_evaluations": 638
+    },
+    {
+      "evaluations": 24500,
+      "best_cost": 270800,
+      "feasible_evaluations": 648
+    },
+    {
+      "evaluations": 25000,
+      "best_cost": 270800,
+      "feasible_evaluations": 658
+    },
+    {
+      "evaluations": 25500,
+      "best_cost": 270800,
+      "feasible_evaluations": 683
+    },
+    {
+      "evaluations": 26000,
+      "best_cost": 270800,
+      "feasible_evaluations": 696
+    },
+    {
+      "evaluations": 26500,
+      "best_cost": 270800,
+      "feasible_evaluations": 715
+    },
+    {
+      "evaluations": 27000,
+      "best_cost": 270800,
+      "feasible_evaluations": 731
+    },
+    {
+      "evaluations": 27500,
+      "best_cost": 270800,
+      "feasible_evaluations": 738
+    },
+    {
+      "evaluations": 28000,
+      "best_cost": 270800,
+      "feasible_evaluations": 749
+    },
+    {
+      "evaluations": 28500,
+      "best_cost": 270800,
+      "feasible_evaluations": 760
+    },
+    {
+      "evaluations": 29000,
+      "best_cost": 270800,
+      "feasible_evaluations": 774
+    },
+    {
+      "evaluations": 29500,
+      "best_cost": 270800,
+      "feasible_evaluations": 785
+    },
+    {
+      "evaluations": 30000,
+      "best_cost": 270800,
+      "feasible_evaluations": 799
+    },
+    {
+      "evaluations": 30500,
+      "best_cost": 270800,
+      "feasible_evaluations": 817
+    },
+    {
+      "evaluations": 31000,
+      "best_cost": 270800,
+      "feasible_evaluations": 825
+    },
+    {
+      "evaluations": 31500,
+      "best_cost": 270800,
+      "feasible_evaluations": 848
+    },
+    {
+      "evaluations": 32000,
+      "best_cost": 270800,
+      "feasible_evaluations": 861
+    },
+    {
+      "evaluations": 32500,
+      "best_cost": 270800,
+      "feasible_evaluations": 881
+    },
+    {
+      "evaluations": 33000,
+      "best_cost": 270800,
+      "feasible_evaluations": 893
+    },
+    {
+      "evaluations": 33500,
+      "best_cost": 270800,
+      "feasible_evaluations": 905
+    },
+    {
+      "evaluations": 34000,
+      "best_cost": 270800,
+      "feasible_evaluations": 923
+    },
+    {
+      "evaluations": 34500,
+      "best_cost": 270800,
+      "feasible_evaluations": 933
+    },
+    {
+      "evaluations": 35000,
+      "best_cost": 270800,
+      "feasible_evaluations": 945
+    },
+    {
+      "evaluations": 35500,
+      "best_cost": 270800,
+      "feasible_evaluations": 959
+    },
+    {
+      "evaluations": 36000,
+      "best_cost": 270800,
+      "feasible_evaluations": 966
+    },
+    {
+      "evaluations": 36500,
+      "best_cost": 270800,
+      "feasible_evaluations": 980
+    },
+    {
+      "evaluations": 37000,
+      "best_cost": 270800,
+      "feasible_evaluations": 990
+    },
+    {
+      "evaluations": 37500,
+      "best_cost": 270800,
+      "feasible_evaluations": 997
+    },
+    {
+      "evaluations": 38000,
+      "best_cost": 270800,
+      "feasible_evaluations": 1014
+    },
+    {
+      "evaluations": 38500,
+      "best_cost": 270800,
+      "feasible_evaluations": 1029
+    },
+    {
+      "evaluations": 39000,
+      "best_cost": 270800,
+      "feasible_evaluations": 1040
+    },
+    {
+      "evaluations": 39500,
+      "best_cost": 270800,
+      "feasible_evaluations": 1056
+    },
+    {
+      "evaluations": 40000,
+      "best_cost": 270800,
+      "feasible_evaluations": 1075
+    },
+    {
+      "evaluations": 40500,
+      "best_cost": 270800,
+      "feasible_evaluations": 1085
+    },
+    {
+      "evaluations": 41000,
+      "best_cost": 270800,
+      "feasible_evaluations": 1104
+    },
+    {
+      "evaluations": 41500,
+      "best_cost": 270800,
+      "feasible_evaluations": 1112
+    },
+    {
+      "evaluations": 42000,
+      "best_cost": 270800,
+      "feasible_evaluations": 1128
+    },
+    {
+      "evaluations": 42500,
+      "best_cost": 270800,
+      "feasible_evaluations": 1143
+    },
+    {
+      "evaluations": 43000,
+      "best_cost": 270800,
+      "feasible_evaluations": 1157
+    },
+    {
+      "evaluations": 43500,
+      "best_cost": 270800,
+      "feasible_evaluations": 1175
+    },
+    {
+      "evaluations": 44000,
+      "best_cost": 270800,
+      "feasible_evaluations": 1191
+    },
+    {
+      "evaluations": 44500,
+      "best_cost": 270800,
+      "feasible_evaluations": 1200
+    },
+    {
+      "evaluations": 45000,
+      "best_cost": 270800,
+      "feasible_evaluations": 1211
+    },
+    {
+      "evaluations": 45500,
+      "best_cost": 270800,
+      "feasible_evaluations": 1225
+    },
+    {
+      "evaluations": 46000,
+      "best_cost": 270800,
+      "feasible_evaluations": 1239
+    },
+    {
+      "evaluations": 46500,
+      "best_cost": 269900,
+      "feasible_evaluations": 1251
+    },
+    {
+      "evaluations": 47000,
+      "best_cost": 269900,
+      "feasible_evaluations": 1263
+    },
+    {
+      "evaluations": 47500,
+      "best_cost": 269900,
+      "feasible_evaluations": 1270
+    },
+    {
+      "evaluations": 48000,
+      "best_cost": 269900,
+      "feasible_evaluations": 1286
+    },
+    {
+      "evaluations": 48500,
+      "best_cost": 269900,
+      "feasible_evaluations": 1296
+    },
+    {
+      "evaluations": 49000,
+      "best_cost": 269900,
+      "feasible_evaluations": 1303
+    },
+    {
+      "evaluations": 49500,
+      "best_cost": 269900,
+      "feasible_evaluations": 1316
+    },
+    {
+      "evaluations": 50000,
+      "best_cost": 269900,
+      "feasible_evaluations": 1336
+    }
+  ],
+  "method": "random_repair",
+  "seed": 5,
+  "generations": 0,
+  "population_history": [],
+  "seconds": 2.772124166993308
+}

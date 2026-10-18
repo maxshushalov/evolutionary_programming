@@ -1,0 +1,1813 @@
+{
+  "limit": 50000,
+  "evaluations": 50000,
+  "candidate_evaluations": 13398,
+  "repair_evaluations": 36602,
+  "repair_accepted": 16176,
+  "repair_calls": 13298,
+  "repair_seconds": 1.7550404834910296,
+  "feasible_evaluations": 13145,
+  "first_feasible_evaluation": 112,
+  "best_menu": [
+    [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  ],
+  "best_result": {
+    "total_cost": 226000,
+    "daily_cost": [
+      29200,
+      36800,
+      32100,
+      33900,
+      31300,
+      30900,
+      31800
+    ],
+    "daily_calories": [
+      1815,
+      1815,
+      1835,
+      1805,
+      1830,
+      1830,
+      1800
+    ],
+    "frequency": [
+      3,
+      1,
+      3,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0,
+      3,
+      3,
+      3,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "unique_count": 15,
+    "calorie_shortage": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "calorie_excess": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "budget_excess": 0,
+    "diversity_shortage": 0,
+    "frequency_excess": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "violation": 0.0,
+    "feasible": true,
+    "score": 0.6457142857142857
+  },
+  "history": [
+    {
+      "evaluations": 500,
+      "best_cost": 288900,
+      "feasible_evaluations": 15
+    },
+    {
+      "evaluations": 1000,
+      "best_cost": 288900,
+      "feasible_evaluations": 20
+    },
+    {
+      "evaluations": 1500,
+      "best_cost": 284100,
+      "feasible_evaluations": 34
+    },
+    {
+      "evaluations": 2000,
+      "best_cost": 284100,
+      "feasible_evaluations": 53
+    },
+    {
+      "evaluations": 2500,
+      "best_cost": 284100,
+      "feasible_evaluations": 57
+    },
+    {
+      "evaluations": 3000,
+      "best_cost": 265700,
+      "feasible_evaluations": 74
+    },
+    {
+      "evaluations": 3500,
+      "best_cost": 265700,
+      "feasible_evaluations": 133
+    },
+    {
+      "evaluations": 4000,
+      "best_cost": 265700,
+      "feasible_evaluations": 213
+    },
+    {
+      "evaluations": 4500,
+      "best_cost": 258300,
+      "feasible_evaluations": 382
+    },
+    {
+      "evaluations": 5000,
+      "best_cost": 257200,
+      "feasible_evaluations": 498
+    },
+    {
+      "evaluations": 5500,
+      "best_cost": 252400,
+      "feasible_evaluations": 619
+    },
+    {
+      "evaluations": 6000,
+      "best_cost": 250300,
+      "feasible_evaluations": 753
+    },
+    {
+      "evaluations": 6500,
+      "best_cost": 245200,
+      "feasible_evaluations": 919
+    },
+    {
+      "evaluations": 7000,
+      "best_cost": 244100,
+      "feasible_evaluations": 1074
+    },
+    {
+      "evaluations": 7500,
+      "best_cost": 240200,
+      "feasible_evaluations": 1208
+    },
+    {
+      "evaluations": 8000,
+      "best_cost": 240200,
+      "feasible_evaluations": 1276
+    },
+    {
+      "evaluations": 8500,
+      "best_cost": 237400,
+      "feasible_evaluations": 1449
+    },
+    {
+      "evaluations": 9000,
+      "best_cost": 236600,
+      "feasible_evaluations": 1639
+    },
+    {
+      "evaluations": 9500,
+      "best_cost": 234200,
+      "feasible_evaluations": 1813
+    },
+    {
+      "evaluations": 10000,
+      "best_cost": 232300,
+      "feasible_evaluations": 1993
+    },
+    {
+      "evaluations": 10500,
+      "best_cost": 232300,
+      "feasible_evaluations": 2103
+    },
+    {
+      "evaluations": 11000,
+      "best_cost": 228900,
+      "feasible_evaluations": 2255
+    },
+    {
+      "evaluations": 11500,
+      "best_cost": 228900,
+      "feasible_evaluations": 2362
+    },
+    {
+      "evaluations": 12000,
+      "best_cost": 228900,
+      "feasible_evaluations": 2500
+    },
+    {
+      "evaluations": 12500,
+      "best_cost": 228900,
+      "feasible_evaluations": 2656
+    },
+    {
+      "evaluations": 13000,
+      "best_cost": 228900,
+      "feasible_evaluations": 2764
+    },
+    {
+      "evaluations": 13500,
+      "best_cost": 228700,
+      "feasible_evaluations": 2885
+    },
+    {
+      "evaluations": 14000,
+      "best_cost": 228700,
+      "feasible_evaluations": 2984
+    },
+    {
+      "evaluations": 14500,
+      "best_cost": 228700,
+      "feasible_evaluations": 3153
+    },
+    {
+      "evaluations": 15000,
+      "best_cost": 228100,
+      "feasible_evaluations": 3271
+    },
+    {
+      "evaluations": 15500,
+      "best_cost": 228100,
+      "feasible_evaluations": 3443
+    },
+    {
+      "evaluations": 16000,
+      "best_cost": 228100,
+      "feasible_evaluations": 3548
+    },
+    {
+      "evaluations": 16500,
+      "best_cost": 228100,
+      "feasible_evaluations": 3670
+    },
+    {
+      "evaluations": 17000,
+      "best_cost": 228100,
+      "feasible_evaluations": 3797
+    },
+    {
+      "evaluations": 17500,
+      "best_cost": 228100,
+      "feasible_evaluations": 3930
+    },
+    {
+      "evaluations": 18000,
+      "best_cost": 227400,
+      "feasible_evaluations": 4111
+    },
+    {
+      "evaluations": 18500,
+      "best_cost": 227400,
+      "feasible_evaluations": 4319
+    },
+    {
+      "evaluations": 19000,
+      "best_cost": 227400,
+      "feasible_evaluations": 4455
+    },
+    {
+      "evaluations": 19500,
+      "best_cost": 227400,
+      "feasible_evaluations": 4624
+    },
+    {
+      "evaluations": 20000,
+      "best_cost": 227400,
+      "feasible_evaluations": 4769
+    },
+    {
+      "evaluations": 20500,
+      "best_cost": 227400,
+      "feasible_evaluations": 4911
+    },
+    {
+      "evaluations": 21000,
+      "best_cost": 227400,
+      "feasible_evaluations": 5015
+    },
+    {
+      "evaluations": 21500,
+      "best_cost": 227400,
+      "feasible_evaluations": 5163
+    },
+    {
+      "evaluations": 22000,
+      "best_cost": 227400,
+      "feasible_evaluations": 5244
+    },
+    {
+      "evaluations": 22500,
+      "best_cost": 227400,
+      "feasible_evaluations": 5397
+    },
+    {
+      "evaluations": 23000,
+      "best_cost": 227200,
+      "feasible_evaluations": 5522
+    },
+    {
+      "evaluations": 23500,
+      "best_cost": 227200,
+      "feasible_evaluations": 5685
+    },
+    {
+      "evaluations": 24000,
+      "best_cost": 227200,
+      "feasible_evaluations": 5861
+    },
+    {
+      "evaluations": 24500,
+      "best_cost": 227200,
+      "feasible_evaluations": 5968
+    },
+    {
+      "evaluations": 25000,
+      "best_cost": 227200,
+      "feasible_evaluations": 6091
+    },
+    {
+      "evaluations": 25500,
+      "best_cost": 227200,
+      "feasible_evaluations": 6228
+    },
+    {
+      "evaluations": 26000,
+      "best_cost": 226400,
+      "feasible_evaluations": 6382
+    },
+    {
+      "evaluations": 26500,
+      "best_cost": 226400,
+      "feasible_evaluations": 6494
+    },
+    {
+      "evaluations": 27000,
+      "best_cost": 226200,
+      "feasible_evaluations": 6589
+    },
+    {
+      "evaluations": 27500,
+      "best_cost": 226000,
+      "feasible_evaluations": 6803
+    },
+    {
+      "evaluations": 28000,
+      "best_cost": 226000,
+      "feasible_evaluations": 6953
+    },
+    {
+      "evaluations": 28500,
+      "best_cost": 226000,
+      "feasible_evaluations": 7129
+    },
+    {
+      "evaluations": 29000,
+      "best_cost": 226000,
+      "feasible_evaluations": 7320
+    },
+    {
+      "evaluations": 29500,
+      "best_cost": 226000,
+      "feasible_evaluations": 7460
+    },
+    {
+      "evaluations": 30000,
+      "best_cost": 226000,
+      "feasible_evaluations": 7587
+    },
+    {
+      "evaluations": 30500,
+      "best_cost": 226000,
+      "feasible_evaluations": 7698
+    },
+    {
+      "evaluations": 31000,
+      "best_cost": 226000,
+      "feasible_evaluations": 7864
+    },
+    {
+      "evaluations": 31500,
+      "best_cost": 226000,
+      "feasible_evaluations": 7990
+    },
+    {
+      "evaluations": 32000,
+      "best_cost": 226000,
+      "feasible_evaluations": 8124
+    },
+    {
+      "evaluations": 32500,
+      "best_cost": 226000,
+      "feasible_evaluations": 8184
+    },
+    {
+      "evaluations": 33000,
+      "best_cost": 226000,
+      "feasible_evaluations": 8263
+    },
+    {
+      "evaluations": 33500,
+      "best_cost": 226000,
+      "feasible_evaluations": 8424
+    },
+    {
+      "evaluations": 34000,
+      "best_cost": 226000,
+      "feasible_evaluations": 8580
+    },
+    {
+      "evaluations": 34500,
+      "best_cost": 226000,
+      "feasible_evaluations": 8665
+    },
+    {
+      "evaluations": 35000,
+      "best_cost": 226000,
+      "feasible_evaluations": 8787
+    },
+    {
+      "evaluations": 35500,
+      "best_cost": 226000,
+      "feasible_evaluations": 8940
+    },
+    {
+      "evaluations": 36000,
+      "best_cost": 226000,
+      "feasible_evaluations": 9101
+    },
+    {
+      "evaluations": 36500,
+      "best_cost": 226000,
+      "feasible_evaluations": 9205
+    },
+    {
+      "evaluations": 37000,
+      "best_cost": 226000,
+      "feasible_evaluations": 9330
+    },
+    {
+      "evaluations": 37500,
+      "best_cost": 226000,
+      "feasible_evaluations": 9486
+    },
+    {
+      "evaluations": 38000,
+      "best_cost": 226000,
+      "feasible_evaluations": 9596
+    },
+    {
+      "evaluations": 38500,
+      "best_cost": 226000,
+      "feasible_evaluations": 9758
+    },
+    {
+      "evaluations": 39000,
+      "best_cost": 226000,
+      "feasible_evaluations": 9982
+    },
+    {
+      "evaluations": 39500,
+      "best_cost": 226000,
+      "feasible_evaluations": 10153
+    },
+    {
+      "evaluations": 40000,
+      "best_cost": 226000,
+      "feasible_evaluations": 10271
+    },
+    {
+      "evaluations": 40500,
+      "best_cost": 226000,
+      "feasible_evaluations": 10347
+    },
+    {
+      "evaluations": 41000,
+      "best_cost": 226000,
+      "feasible_evaluations": 10473
+    },
+    {
+      "evaluations": 41500,
+      "best_cost": 226000,
+      "feasible_evaluations": 10663
+    },
+    {
+      "evaluations": 42000,
+      "best_cost": 226000,
+      "feasible_evaluations": 10791
+    },
+    {
+      "evaluations": 42500,
+      "best_cost": 226000,
+      "feasible_evaluations": 10949
+    },
+    {
+      "evaluations": 43000,
+      "best_cost": 226000,
+      "feasible_evaluations": 11077
+    },
+    {
+      "evaluations": 43500,
+      "best_cost": 226000,
+      "feasible_evaluations": 11199
+    },
+    {
+      "evaluations": 44000,
+      "best_cost": 226000,
+      "feasible_evaluations": 11352
+    },
+    {
+      "evaluations": 44500,
+      "best_cost": 226000,
+      "feasible_evaluations": 11514
+    },
+    {
+      "evaluations": 45000,
+      "best_cost": 226000,
+      "feasible_evaluations": 11673
+    },
+    {
+      "evaluations": 45500,
+      "best_cost": 226000,
+      "feasible_evaluations": 11818
+    },
+    {
+      "evaluations": 46000,
+      "best_cost": 226000,
+      "feasible_evaluations": 11966
+    },
+    {
+      "evaluations": 46500,
+      "best_cost": 226000,
+      "feasible_evaluations": 12157
+    },
+    {
+      "evaluations": 47000,
+      "best_cost": 226000,
+      "feasible_evaluations": 12298
+    },
+    {
+      "evaluations": 47500,
+      "best_cost": 226000,
+      "feasible_evaluations": 12374
+    },
+    {
+      "evaluations": 48000,
+      "best_cost": 226000,
+      "feasible_evaluations": 12531
+    },
+    {
+      "evaluations": 48500,
+      "best_cost": 226000,
+      "feasible_evaluations": 12614
+    },
+    {
+      "evaluations": 49000,
+      "best_cost": 226000,
+      "feasible_evaluations": 12809
+    },
+    {
+      "evaluations": 49500,
+      "best_cost": 226000,
+      "feasible_evaluations": 12996
+    },
+    {
+      "evaluations": 50000,
+      "best_cost": 226000,
+      "feasible_evaluations": 13145
+    }
+  ],
+  "method": "combined_bit",
+  "seed": 1,
+  "generations": 136,
+  "population_history": [
+    {
+      "generation": 0,
+      "evaluations": 100,
+      "population_size": 100,
+      "feasible_fraction": 0.0,
+      "best_score": 10.253841269841269
+    },
+    {
+      "generation": 1,
+      "evaluations": 3137,
+      "population_size": 100,
+      "feasible_fraction": 0.78,
+      "best_score": 0.7591428571428571
+    },
+    {
+      "generation": 2,
+      "evaluations": 3807,
+      "population_size": 100,
+      "feasible_fraction": 0.96,
+      "best_score": 0.7591428571428571
+    },
+    {
+      "generation": 3,
+      "evaluations": 4151,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.738
+    },
+    {
+      "generation": 4,
+      "evaluations": 4458,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.738
+    },
+    {
+      "generation": 5,
+      "evaluations": 4794,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.7362857142857143
+    },
+    {
+      "generation": 6,
+      "evaluations": 5160,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.7211428571428572
+    },
+    {
+      "generation": 7,
+      "evaluations": 5646,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.7211428571428572
+    },
+    {
+      "generation": 8,
+      "evaluations": 6002,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.7151428571428572
+    },
+    {
+      "generation": 9,
+      "evaluations": 6304,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.7005714285714286
+    },
+    {
+      "generation": 10,
+      "evaluations": 6572,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.7005714285714286
+    },
+    {
+      "generation": 11,
+      "evaluations": 6939,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.7005714285714286
+    },
+    {
+      "generation": 12,
+      "evaluations": 7191,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6962857142857143
+    },
+    {
+      "generation": 13,
+      "evaluations": 7695,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6862857142857143
+    },
+    {
+      "generation": 14,
+      "evaluations": 8174,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6862857142857143
+    },
+    {
+      "generation": 15,
+      "evaluations": 8465,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6862857142857143
+    },
+    {
+      "generation": 16,
+      "evaluations": 8717,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6782857142857143
+    },
+    {
+      "generation": 17,
+      "evaluations": 8978,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.676
+    },
+    {
+      "generation": 18,
+      "evaluations": 9245,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6728571428571428
+    },
+    {
+      "generation": 19,
+      "evaluations": 9533,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6691428571428572
+    },
+    {
+      "generation": 20,
+      "evaluations": 9795,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6637142857142857
+    },
+    {
+      "generation": 21,
+      "evaluations": 10188,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6637142857142857
+    },
+    {
+      "generation": 22,
+      "evaluations": 10560,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6637142857142857
+    },
+    {
+      "generation": 23,
+      "evaluations": 10901,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.654
+    },
+    {
+      "generation": 24,
+      "evaluations": 11363,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.654
+    },
+    {
+      "generation": 25,
+      "evaluations": 11749,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.654
+    },
+    {
+      "generation": 26,
+      "evaluations": 12011,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.654
+    },
+    {
+      "generation": 27,
+      "evaluations": 12335,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.654
+    },
+    {
+      "generation": 28,
+      "evaluations": 12637,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.654
+    },
+    {
+      "generation": 29,
+      "evaluations": 13081,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.654
+    },
+    {
+      "generation": 30,
+      "evaluations": 13615,
+      "population_size": 100,
+      "feasible_fraction": 0.97,
+      "best_score": 0.6534285714285715
+    },
+    {
+      "generation": 31,
+      "evaluations": 14118,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6534285714285715
+    },
+    {
+      "generation": 32,
+      "evaluations": 14314,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6534285714285715
+    },
+    {
+      "generation": 33,
+      "evaluations": 14794,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6534285714285715
+    },
+    {
+      "generation": 34,
+      "evaluations": 15025,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6517142857142857
+    },
+    {
+      "generation": 35,
+      "evaluations": 15302,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6517142857142857
+    },
+    {
+      "generation": 36,
+      "evaluations": 15694,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6517142857142857
+    },
+    {
+      "generation": 37,
+      "evaluations": 16181,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6517142857142857
+    },
+    {
+      "generation": 38,
+      "evaluations": 16497,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6517142857142857
+    },
+    {
+      "generation": 39,
+      "evaluations": 16829,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6517142857142857
+    },
+    {
+      "generation": 40,
+      "evaluations": 17258,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6517142857142857
+    },
+    {
+      "generation": 41,
+      "evaluations": 17616,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6517142857142857
+    },
+    {
+      "generation": 42,
+      "evaluations": 17864,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6497142857142857
+    },
+    {
+      "generation": 43,
+      "evaluations": 18133,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6497142857142857
+    },
+    {
+      "generation": 44,
+      "evaluations": 18363,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6497142857142857
+    },
+    {
+      "generation": 45,
+      "evaluations": 18589,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6497142857142857
+    },
+    {
+      "generation": 46,
+      "evaluations": 18987,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6497142857142857
+    },
+    {
+      "generation": 47,
+      "evaluations": 19245,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6497142857142857
+    },
+    {
+      "generation": 48,
+      "evaluations": 19690,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6497142857142857
+    },
+    {
+      "generation": 49,
+      "evaluations": 19936,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6497142857142857
+    },
+    {
+      "generation": 50,
+      "evaluations": 20278,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6497142857142857
+    },
+    {
+      "generation": 51,
+      "evaluations": 20571,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6497142857142857
+    },
+    {
+      "generation": 52,
+      "evaluations": 21042,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6497142857142857
+    },
+    {
+      "generation": 53,
+      "evaluations": 21400,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6497142857142857
+    },
+    {
+      "generation": 54,
+      "evaluations": 21848,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6497142857142857
+    },
+    {
+      "generation": 55,
+      "evaluations": 22197,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6497142857142857
+    },
+    {
+      "generation": 56,
+      "evaluations": 22541,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6497142857142857
+    },
+    {
+      "generation": 57,
+      "evaluations": 22982,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6491428571428571
+    },
+    {
+      "generation": 58,
+      "evaluations": 23300,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6491428571428571
+    },
+    {
+      "generation": 59,
+      "evaluations": 23565,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6491428571428571
+    },
+    {
+      "generation": 60,
+      "evaluations": 23791,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6491428571428571
+    },
+    {
+      "generation": 61,
+      "evaluations": 24203,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6491428571428571
+    },
+    {
+      "generation": 62,
+      "evaluations": 24769,
+      "population_size": 100,
+      "feasible_fraction": 0.97,
+      "best_score": 0.6491428571428571
+    },
+    {
+      "generation": 63,
+      "evaluations": 25009,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6491428571428571
+    },
+    {
+      "generation": 64,
+      "evaluations": 25363,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6491428571428571
+    },
+    {
+      "generation": 65,
+      "evaluations": 25701,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6491428571428571
+    },
+    {
+      "generation": 66,
+      "evaluations": 26013,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6468571428571429
+    },
+    {
+      "generation": 67,
+      "evaluations": 26396,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6468571428571429
+    },
+    {
+      "generation": 68,
+      "evaluations": 26897,
+      "population_size": 100,
+      "feasible_fraction": 0.97,
+      "best_score": 0.6462857142857142
+    },
+    {
+      "generation": 69,
+      "evaluations": 27248,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 70,
+      "evaluations": 27442,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 71,
+      "evaluations": 27676,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 72,
+      "evaluations": 28039,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 73,
+      "evaluations": 28349,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 74,
+      "evaluations": 28594,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 75,
+      "evaluations": 28847,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 76,
+      "evaluations": 29130,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 77,
+      "evaluations": 29473,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 78,
+      "evaluations": 29820,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 79,
+      "evaluations": 30259,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 80,
+      "evaluations": 30684,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 81,
+      "evaluations": 30914,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 82,
+      "evaluations": 31290,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 83,
+      "evaluations": 31611,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 84,
+      "evaluations": 32035,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 85,
+      "evaluations": 32706,
+      "population_size": 100,
+      "feasible_fraction": 0.96,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 86,
+      "evaluations": 33157,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 87,
+      "evaluations": 33488,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 88,
+      "evaluations": 33716,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 89,
+      "evaluations": 34189,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 90,
+      "evaluations": 34606,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 91,
+      "evaluations": 35122,
+      "population_size": 100,
+      "feasible_fraction": 0.97,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 92,
+      "evaluations": 35359,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 93,
+      "evaluations": 35655,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 94,
+      "evaluations": 35963,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 95,
+      "evaluations": 36276,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 96,
+      "evaluations": 36792,
+      "population_size": 100,
+      "feasible_fraction": 0.97,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 97,
+      "evaluations": 37134,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 98,
+      "evaluations": 37482,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 99,
+      "evaluations": 37943,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 100,
+      "evaluations": 38214,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 101,
+      "evaluations": 38541,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 102,
+      "evaluations": 38749,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 103,
+      "evaluations": 38975,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 104,
+      "evaluations": 39301,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 105,
+      "evaluations": 39528,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 106,
+      "evaluations": 39981,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 107,
+      "evaluations": 40555,
+      "population_size": 100,
+      "feasible_fraction": 0.97,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 108,
+      "evaluations": 40924,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 109,
+      "evaluations": 41242,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 110,
+      "evaluations": 41474,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 111,
+      "evaluations": 41905,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 112,
+      "evaluations": 42241,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 113,
+      "evaluations": 42482,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 114,
+      "evaluations": 42814,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 115,
+      "evaluations": 43148,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 116,
+      "evaluations": 43584,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 117,
+      "evaluations": 43929,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 118,
+      "evaluations": 44273,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 119,
+      "evaluations": 44519,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 120,
+      "evaluations": 44776,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 121,
+      "evaluations": 45239,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 122,
+      "evaluations": 45485,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 123,
+      "evaluations": 45779,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 124,
+      "evaluations": 46139,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 125,
+      "evaluations": 46417,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 126,
+      "evaluations": 46645,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 127,
+      "evaluations": 47076,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 128,
+      "evaluations": 47552,
+      "population_size": 100,
+      "feasible_fraction": 0.98,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 129,
+      "evaluations": 47794,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 130,
+      "evaluations": 48341,
+      "population_size": 100,
+      "feasible_fraction": 0.97,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 131,
+      "evaluations": 48676,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 132,
+      "evaluations": 48938,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 133,
+      "evaluations": 49177,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 134,
+      "evaluations": 49393,
+      "population_size": 100,
+      "feasible_fraction": 1.0,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 135,
+      "evaluations": 49727,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    },
+    {
+      "generation": 136,
+      "evaluations": 50000,
+      "population_size": 100,
+      "feasible_fraction": 0.99,
+      "best_score": 0.6457142857142857
+    }
+  ],
+  "seconds": 2.499618500005454
+}
