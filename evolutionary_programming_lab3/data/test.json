@@ -1,0 +1,702 @@
+{
+  "positions": [
+    {
+      "board": [
+        1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        -1,
+        1
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        0,
+        0,
+        1,
+        -1,
+        0,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "player": 1
+    },
+    {
+      "board": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        0,
+        1,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        -1
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        -1,
+        1,
+        0
+      ],
+      "player": 1
+    },
+    {
+      "board": [
+        0,
+        0,
+        1,
+        0,
+        -1,
+        -1,
+        1,
+        1,
+        0
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "player": 1
+    },
+    {
+      "board": [
+        0,
+        0,
+        1,
+        0,
+        -1,
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "player": 1
+    },
+    {
+      "board": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        0,
+        0,
+        0,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        -1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "player": 1
+    },
+    {
+      "board": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0
+      ],
+      "player": 1
+    },
+    {
+      "board": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        0
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        1,
+        1
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "player": 1
+    },
+    {
+      "board": [
+        1,
+        -1,
+        0,
+        -1,
+        1,
+        0,
+        1,
+        -1,
+        0
+      ],
+      "player": 1
+    },
+    {
+      "board": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        -1
+      ],
+      "player": 1
+    },
+    {
+      "board": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "player": 1
+    }
+  ],
+  "matches": [
+    {
+      "opponent": "random",
+      "sign": 1,
+      "agent_seed": 377367539,
+      "opponent_seed": 2318399117
+    },
+    {
+      "opponent": "random",
+      "sign": 1,
+      "agent_seed": 3932662485,
+      "opponent_seed": 3473893024
+    },
+    {
+      "opponent": "random",
+      "sign": 1,
+      "agent_seed": 130533611,
+      "opponent_seed": 4152148117
+    },
+    {
+      "opponent": "random",
+      "sign": 1,
+      "agent_seed": 4261720701,
+      "opponent_seed": 569537184
+    },
+    {
+      "opponent": "random",
+      "sign": 1,
+      "agent_seed": 225138724,
+      "opponent_seed": 685249129
+    },
+    {
+      "opponent": "random",
+      "sign": 1,
+      "agent_seed": 4164605958,
+      "opponent_seed": 735327602
+    },
+    {
+      "opponent": "random",
+      "sign": 1,
+      "agent_seed": 2719112385,
+      "opponent_seed": 1291424108
+    },
+    {
+      "opponent": "random",
+      "sign": 1,
+      "agent_seed": 3129148112,
+      "opponent_seed": 2579330227
+    },
+    {
+      "opponent": "random",
+      "sign": 1,
+      "agent_seed": 2080190625,
+      "opponent_seed": 1181800090
+    },
+    {
+      "opponent": "random",
+      "sign": 1,
+      "agent_seed": 896840845,
+      "opponent_seed": 2978864630
+    },
+    {
+      "opponent": "random",
+      "sign": -1,
+      "agent_seed": 749932091,
+      "opponent_seed": 4121444364
+    },
+    {
+      "opponent": "random",
+      "sign": -1,
+      "agent_seed": 666028591,
+      "opponent_seed": 1108925504
+    },
+    {
+      "opponent": "random",
+      "sign": -1,
+      "agent_seed": 2044335089,
+      "opponent_seed": 980152373
+    },
+    {
+      "opponent": "random",
+      "sign": -1,
+      "agent_seed": 4249039844,
+      "opponent_seed": 1375759437
+    },
+    {
+      "opponent": "random",
+      "sign": -1,
+      "agent_seed": 1962337074,
+      "opponent_seed": 2369185477
+    },
+    {
+      "opponent": "random",
+      "sign": -1,
+      "agent_seed": 1602721487,
+      "opponent_seed": 2577196580
+    },
+    {
+      "opponent": "random",
+      "sign": -1,
+      "agent_seed": 1621602253,
+      "opponent_seed": 3309696595
+    },
+    {
+      "opponent": "random",
+      "sign": -1,
+      "agent_seed": 2278730651,
+      "opponent_seed": 3222658791
+    },
+    {
+      "opponent": "random",
+      "sign": -1,
+      "agent_seed": 647812239,
+      "opponent_seed": 340696374
+    },
+    {
+      "opponent": "random",
+      "sign": -1,
+      "agent_seed": 1195580966,
+      "opponent_seed": 3137326893
+    },
+    {
+      "opponent": "tactical",
+      "sign": 1,
+      "agent_seed": 333089795,
+      "opponent_seed": 935383444
+    },
+    {
+      "opponent": "tactical",
+      "sign": 1,
+      "agent_seed": 1898602558,
+      "opponent_seed": 3394058882
+    },
+    {
+      "opponent": "tactical",
+      "sign": 1,
+      "agent_seed": 2581020614,
+      "opponent_seed": 2624420799
+    },
+    {
+      "opponent": "tactical",
+      "sign": 1,
+      "agent_seed": 1086743455,
+      "opponent_seed": 2139147019
+    },
+    {
+      "opponent": "tactical",
+      "sign": 1,
+      "agent_seed": 4265341474,
+      "opponent_seed": 1629877435
+    },
+    {
+      "opponent": "tactical",
+      "sign": 1,
+      "agent_seed": 3023144781,
+      "opponent_seed": 283041620
+    },
+    {
+      "opponent": "tactical",
+      "sign": 1,
+      "agent_seed": 3717689742,
+      "opponent_seed": 1615357894
+    },
+    {
+      "opponent": "tactical",
+      "sign": 1,
+      "agent_seed": 3960697552,
+      "opponent_seed": 992834074
+    },
+    {
+      "opponent": "tactical",
+      "sign": 1,
+      "agent_seed": 392168055,
+      "opponent_seed": 2905634228
+    },
+    {
+      "opponent": "tactical",
+      "sign": 1,
+      "agent_seed": 3821310283,
+      "opponent_seed": 2865107300
+    },
+    {
+      "opponent": "tactical",
+      "sign": -1,
+      "agent_seed": 4092073903,
+      "opponent_seed": 2354107799
+    },
+    {
+      "opponent": "tactical",
+      "sign": -1,
+      "agent_seed": 3835080511,
+      "opponent_seed": 178652663
+    },
+    {
+      "opponent": "tactical",
+      "sign": -1,
+      "agent_seed": 1497716475,
+      "opponent_seed": 2536974655
+    },
+    {
+      "opponent": "tactical",
+      "sign": -1,
+      "agent_seed": 1868638132,
+      "opponent_seed": 1717193772
+    },
+    {
+      "opponent": "tactical",
+      "sign": -1,
+      "agent_seed": 2034285395,
+      "opponent_seed": 395695274
+    },
+    {
+      "opponent": "tactical",
+      "sign": -1,
+      "agent_seed": 115410246,
+      "opponent_seed": 4092548778
+    },
+    {
+      "opponent": "tactical",
+      "sign": -1,
+      "agent_seed": 1048579198,
+      "opponent_seed": 3776413578
+    },
+    {
+      "opponent": "tactical",
+      "sign": -1,
+      "agent_seed": 3638334647,
+      "opponent_seed": 4173075341
+    },
+    {
+      "opponent": "tactical",
+      "sign": -1,
+      "agent_seed": 3922567903,
+      "opponent_seed": 2331577064
+    },
+    {
+      "opponent": "tactical",
+      "sign": -1,
+      "agent_seed": 2327553694,
+      "opponent_seed": 1492119444
+    },
+    {
+      "opponent": "fixed",
+      "sign": 1,
+      "agent_seed": 3311634180,
+      "opponent_seed": 1210222281
+    },
+    {
+      "opponent": "fixed",
+      "sign": 1,
+      "agent_seed": 1641898254,
+      "opponent_seed": 1853561378
+    },
+    {
+      "opponent": "fixed",
+      "sign": 1,
+      "agent_seed": 675378394,
+      "opponent_seed": 2949901367
+    },
+    {
+      "opponent": "fixed",
+      "sign": 1,
+      "agent_seed": 2878487912,
+      "opponent_seed": 1670293625
+    },
+    {
+      "opponent": "fixed",
+      "sign": 1,
+      "agent_seed": 3200614098,
+      "opponent_seed": 2696052480
+    },
+    {
+      "opponent": "fixed",
+      "sign": 1,
+      "agent_seed": 4150863733,
+      "opponent_seed": 1420468833
+    },
+    {
+      "opponent": "fixed",
+      "sign": 1,
+      "agent_seed": 3137212769,
+      "opponent_seed": 3079972244
+    },
+    {
+      "opponent": "fixed",
+      "sign": 1,
+      "agent_seed": 3224747525,
+      "opponent_seed": 879311232
+    },
+    {
+      "opponent": "fixed",
+      "sign": 1,
+      "agent_seed": 1047826104,
+      "opponent_seed": 3304413029
+    },
+    {
+      "opponent": "fixed",
+      "sign": 1,
+      "agent_seed": 1375424064,
+      "opponent_seed": 1213988350
+    },
+    {
+      "opponent": "fixed",
+      "sign": -1,
+      "agent_seed": 569803826,
+      "opponent_seed": 2941809728
+    },
+    {
+      "opponent": "fixed",
+      "sign": -1,
+      "agent_seed": 895999147,
+      "opponent_seed": 2709448324
+    },
+    {
+      "opponent": "fixed",
+      "sign": -1,
+      "agent_seed": 4291584114,
+      "opponent_seed": 3547576285
+    },
+    {
+      "opponent": "fixed",
+      "sign": -1,
+      "agent_seed": 4077943190,
+      "opponent_seed": 3332933940
+    },
+    {
+      "opponent": "fixed",
+      "sign": -1,
+      "agent_seed": 1668752316,
+      "opponent_seed": 300959624
+    },
+    {
+      "opponent": "fixed",
+      "sign": -1,
+      "agent_seed": 2124308357,
+      "opponent_seed": 335026678
+    },
+    {
+      "opponent": "fixed",
+      "sign": -1,
+      "agent_seed": 2730674723,
+      "opponent_seed": 864987256
+    },
+    {
+      "opponent": "fixed",
+      "sign": -1,
+      "agent_seed": 3574706783,
+      "opponent_seed": 1203954179
+    },
+    {
+      "opponent": "fixed",
+      "sign": -1,
+      "agent_seed": 2939607930,
+      "opponent_seed": 4232130080
+    },
+    {
+      "opponent": "fixed",
+      "sign": -1,
+      "agent_seed": 1332867901,
+      "opponent_seed": 1369007326
+    }
+  ]
+}

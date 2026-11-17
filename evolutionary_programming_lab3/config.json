@@ -1,0 +1,16 @@
+{
+  "student": {"N": 29, "Q": 0, "Y": 26, "V": 20, "group": 507},
+  "population_size": 24,
+  "evaluation_budget": 240,
+  "runs": 20,
+  "mutation_rates": {"nsga2": 0.16666666666666666, "nsga2_high_mutation": 0.3333333333333333, "weighted": 0.16666666666666666},
+  "train_matches_per_pair": 2,
+  "test_matches_per_pair": 10,
+  "train_positions": 12,
+  "test_positions": 24,
+  "time_repeats": 2,
+  "hypervolume_points": 20000,
+  "hypervolume_seed": 290030,
+  "reference_point": 1.1,
+  "checkpoint": 40
+}

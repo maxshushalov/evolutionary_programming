@@ -1,0 +1,246 @@
+{
+  "positions": [
+    {
+      "board": [
+        -1,
+        0,
+        1,
+        -1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        1,
+        0,
+        1,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        -1
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "player": 1
+    },
+    {
+      "board": [
+        -1,
+        -1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "player": 1
+    },
+    {
+      "board": [
+        0,
+        0,
+        -1,
+        0,
+        -1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "player": 1
+    },
+    {
+      "board": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0
+      ],
+      "player": 1
+    },
+    {
+      "board": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "player": 1
+    },
+    {
+      "board": [
+        1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "player": -1
+    },
+    {
+      "board": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        -1
+      ],
+      "player": 1
+    },
+    {
+      "board": [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "player": 1
+    }
+  ],
+  "matches": [
+    {
+      "opponent": "random",
+      "sign": 1,
+      "agent_seed": 1502308925,
+      "opponent_seed": 3546411503
+    },
+    {
+      "opponent": "random",
+      "sign": 1,
+      "agent_seed": 1439249464,
+      "opponent_seed": 1703884388
+    },
+    {
+      "opponent": "random",
+      "sign": -1,
+      "agent_seed": 3616140929,
+      "opponent_seed": 96744771
+    },
+    {
+      "opponent": "random",
+      "sign": -1,
+      "agent_seed": 3481518388,
+      "opponent_seed": 781813594
+    },
+    {
+      "opponent": "tactical",
+      "sign": 1,
+      "agent_seed": 4002556706,
+      "opponent_seed": 2119430922
+    },
+    {
+      "opponent": "tactical",
+      "sign": 1,
+      "agent_seed": 1896062668,
+      "opponent_seed": 4264428424
+    },
+    {
+      "opponent": "tactical",
+      "sign": -1,
+      "agent_seed": 4102021801,
+      "opponent_seed": 3132691458
+    },
+    {
+      "opponent": "tactical",
+      "sign": -1,
+      "agent_seed": 2446697935,
+      "opponent_seed": 3908760876
+    },
+    {
+      "opponent": "fixed",
+      "sign": 1,
+      "agent_seed": 4251655670,
+      "opponent_seed": 2233408508
+    },
+    {
+      "opponent": "fixed",
+      "sign": 1,
+      "agent_seed": 2167309341,
+      "opponent_seed": 2101614255
+    },
+    {
+      "opponent": "fixed",
+      "sign": -1,
+      "agent_seed": 3169605823,
+      "opponent_seed": 2601385748
+    },
+    {
+      "opponent": "fixed",
+      "sign": -1,
+      "agent_seed": 2553240000,
+      "opponent_seed": 4257649322
+    }
+  ]
+}
