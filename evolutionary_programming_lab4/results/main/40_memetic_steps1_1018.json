@@ -1,0 +1,1285 @@
+{
+  "method": "memetic",
+  "seed": 1018,
+  "params": {
+    "population_size": 80,
+    "elite_size": 2,
+    "tournament_size": 3,
+    "crossover_rate": 0.9,
+    "mutation_rate": 0.3,
+    "evaluation_budget": 20000,
+    "local_search_rate": 0.2,
+    "local_search_steps": 1,
+    "history_interval": 200,
+    "initialization": "mixed"
+  },
+  "best": {
+    "solution": {
+      "permutation": [
+        28,
+        35,
+        29,
+        2,
+        19,
+        22,
+        13,
+        3,
+        39,
+        10,
+        27,
+        7,
+        18,
+        38,
+        6,
+        36,
+        12,
+        16,
+        8,
+        30,
+        1,
+        9,
+        5,
+        23,
+        17,
+        40,
+        20,
+        24,
+        37,
+        11,
+        26,
+        32,
+        34,
+        33,
+        4,
+        25,
+        14,
+        15,
+        31,
+        21
+      ],
+      "route_lengths": [
+        6,
+        8,
+        8,
+        8,
+        10
+      ]
+    },
+    "score": {
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "capacity_excess": 0.0,
+      "lateness": 0.0,
+      "return_excess": 0.0
+    },
+    "validation": {
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "capacity_excess": 0.0,
+      "lateness": 0.0,
+      "return_excess": 0.0,
+      "routes": [
+        {
+          "clients": [
+            28,
+            35,
+            29,
+            2,
+            19,
+            22
+          ],
+          "load": 31,
+          "distance": 170.2996076125002,
+          "return_time": 233.36511282501417,
+          "capacity_excess": 0.0,
+          "return_excess": 0.0,
+          "visits": [
+            {
+              "client": 28,
+              "arrival": 34.07647734706401,
+              "start": 34.07647734706401,
+              "departure": 39.07647734706401,
+              "lateness": 0.0
+            },
+            {
+              "client": 35,
+              "arrival": 65.13558385179176,
+              "start": 91.40887738055407,
+              "departure": 94.40887738055407,
+              "lateness": 0.0
+            },
+            {
+              "client": 29,
+              "arrival": 133.6110746704606,
+              "start": 136.8895201614531,
+              "departure": 138.8895201614531,
+              "lateness": 0.0
+            },
+            {
+              "client": 2,
+              "arrival": 145.88247938286943,
+              "start": 159.46382534268605,
+              "departure": 162.46382534268605,
+              "lateness": 0.0
+            },
+            {
+              "client": 19,
+              "arrival": 168.92066130698095,
+              "start": 170.8530815399235,
+              "departure": 173.8530815399235,
+              "lateness": 0.0
+            },
+            {
+              "client": 22,
+              "arrival": 185.17725784429138,
+              "start": 185.17725784429138,
+              "departure": 187.17725784429138,
+              "lateness": 0.0
+            }
+          ]
+        },
+        {
+          "clients": [
+            13,
+            3,
+            39,
+            10,
+            27,
+            7,
+            18,
+            38
+          ],
+          "load": 41,
+          "distance": 190.3756116357588,
+          "return_time": 210.3756116357588,
+          "capacity_excess": 0.0,
+          "return_excess": 0.0,
+          "visits": [
+            {
+              "client": 13,
+              "arrival": 56.125573297512176,
+              "start": 56.125573297512176,
+              "departure": 59.125573297512176,
+              "lateness": 0.0
+            },
+            {
+              "client": 3,
+              "arrival": 66.41263489285575,
+              "start": 66.41263489285575,
+              "departure": 69.41263489285575,
+              "lateness": 0.0
+            },
+            {
+              "client": 39,
+              "arrival": 75.21208339603291,
+              "start": 75.21208339603291,
+              "departure": 77.21208339603291,
+              "lateness": 0.0
+            },
+            {
+              "client": 10,
+              "arrival": 86.08631099847132,
+              "start": 86.08631099847132,
+              "departure": 88.08631099847132,
+              "lateness": 0.0
+            },
+            {
+              "client": 27,
+              "arrival": 109.44491205789885,
+              "start": 109.44491205789885,
+              "departure": 112.44491205789885,
+              "lateness": 0.0
+            },
+            {
+              "client": 7,
+              "arrival": 119.41365280835225,
+              "start": 119.41365280835225,
+              "departure": 121.41365280835225,
+              "lateness": 0.0
+            },
+            {
+              "client": 18,
+              "arrival": 135.62138682909202,
+              "start": 135.62138682909202,
+              "departure": 137.62138682909202,
+              "lateness": 0.0
+            },
+            {
+              "client": 38,
+              "arrival": 158.589620232401,
+              "start": 158.589620232401,
+              "departure": 161.589620232401,
+              "lateness": 0.0
+            }
+          ]
+        },
+        {
+          "clients": [
+            6,
+            36,
+            12,
+            16,
+            8,
+            30,
+            1,
+            9
+          ],
+          "load": 44,
+          "distance": 192.95748481241478,
+          "return_time": 236.0557240689677,
+          "capacity_excess": 0.0,
+          "return_excess": 0.0,
+          "visits": [
+            {
+              "client": 6,
+              "arrival": 23.26310175451089,
+              "start": 35.87040052299406,
+              "departure": 39.87040052299406,
+              "lateness": 0.0
+            },
+            {
+              "client": 36,
+              "arrival": 55.142487514430556,
+              "start": 55.142487514430556,
+              "departure": 58.142487514430556,
+              "lateness": 0.0
+            },
+            {
+              "client": 12,
+              "arrival": 66.7194946639154,
+              "start": 66.7194946639154,
+              "departure": 70.7194946639154,
+              "lateness": 0.0
+            },
+            {
+              "client": 16,
+              "arrival": 77.42719048351724,
+              "start": 77.42719048351724,
+              "departure": 79.42719048351724,
+              "lateness": 0.0
+            },
+            {
+              "client": 8,
+              "arrival": 114.49534255848832,
+              "start": 114.49534255848832,
+              "departure": 119.49534255848832,
+              "lateness": 0.0
+            },
+            {
+              "client": 30,
+              "arrival": 155.24832423216833,
+              "start": 156.73926472023808,
+              "departure": 159.73926472023808,
+              "lateness": 0.0
+            },
+            {
+              "client": 1,
+              "arrival": 168.73649971813643,
+              "start": 168.73649971813643,
+              "departure": 173.73649971813643,
+              "lateness": 0.0
+            },
+            {
+              "client": 9,
+              "arrival": 200.81058215503163,
+              "start": 200.81058215503163,
+              "departure": 203.81058215503163,
+              "lateness": 0.0
+            }
+          ]
+        },
+        {
+          "clients": [
+            5,
+            23,
+            17,
+            40,
+            20,
+            24,
+            37,
+            11
+          ],
+          "load": 38,
+          "distance": 237.71613811549503,
+          "return_time": 275.1188799843832,
+          "capacity_excess": 0.0,
+          "return_excess": 0.0,
+          "visits": [
+            {
+              "client": 5,
+              "arrival": 36.7140505176053,
+              "start": 36.7140505176053,
+              "departure": 40.7140505176053,
+              "lateness": 0.0
+            },
+            {
+              "client": 23,
+              "arrival": 72.17971318764121,
+              "start": 74.58245505652943,
+              "departure": 79.58245505652943,
+              "lateness": 0.0
+            },
+            {
+              "client": 17,
+              "arrival": 99.06768457667104,
+              "start": 99.06768457667104,
+              "departure": 104.06768457667104,
+              "lateness": 0.0
+            },
+            {
+              "client": 40,
+              "arrival": 120.93478238169203,
+              "start": 120.93478238169203,
+              "departure": 122.93478238169203,
+              "lateness": 0.0
+            },
+            {
+              "client": 20,
+              "arrival": 139.84703293670117,
+              "start": 139.84703293670117,
+              "departure": 144.84703293670117,
+              "lateness": 0.0
+            },
+            {
+              "client": 24,
+              "arrival": 147.85137434986115,
+              "start": 147.85137434986115,
+              "departure": 151.85137434986115,
+              "lateness": 0.0
+            },
+            {
+              "client": 37,
+              "arrival": 189.8861979894653,
+              "start": 189.8861979894653,
+              "departure": 194.8861979894653,
+              "lateness": 0.0
+            },
+            {
+              "client": 11,
+              "arrival": 220.1097749463922,
+              "start": 220.1097749463922,
+              "departure": 225.1097749463922,
+              "lateness": 0.0
+            }
+          ]
+        },
+        {
+          "clients": [
+            26,
+            32,
+            34,
+            33,
+            4,
+            25,
+            14,
+            15,
+            31,
+            21
+          ],
+          "load": 49,
+          "distance": 169.53713723058672,
+          "return_time": 202.5371372305867,
+          "capacity_excess": 0.0,
+          "return_excess": 0.0,
+          "visits": [
+            {
+              "client": 26,
+              "arrival": 13.556841899105358,
+              "start": 13.556841899105358,
+              "departure": 15.556841899105358,
+              "lateness": 0.0
+            },
+            {
+              "client": 32,
+              "arrival": 28.69851659128098,
+              "start": 28.69851659128098,
+              "departure": 31.69851659128098,
+              "lateness": 0.0
+            },
+            {
+              "client": 34,
+              "arrival": 49.6107529235325,
+              "start": 49.6107529235325,
+              "departure": 51.6107529235325,
+              "lateness": 0.0
+            },
+            {
+              "client": 33,
+              "arrival": 60.354418075017435,
+              "start": 60.354418075017435,
+              "departure": 64.35441807501743,
+              "lateness": 0.0
+            },
+            {
+              "client": 4,
+              "arrival": 73.16959655391985,
+              "start": 73.16959655391985,
+              "departure": 76.16959655391985,
+              "lateness": 0.0
+            },
+            {
+              "client": 25,
+              "arrival": 93.75562302929887,
+              "start": 93.75562302929887,
+              "departure": 95.75562302929887,
+              "lateness": 0.0
+            },
+            {
+              "client": 14,
+              "arrival": 123.31352296352793,
+              "start": 123.31352296352793,
+              "departure": 128.31352296352793,
+              "lateness": 0.0
+            },
+            {
+              "client": 15,
+              "arrival": 135.43992745882227,
+              "start": 135.43992745882227,
+              "departure": 138.43992745882227,
+              "lateness": 0.0
+            },
+            {
+              "client": 31,
+              "arrival": 141.33029232991774,
+              "start": 141.33029232991774,
+              "departure": 145.33029232991774,
+              "lateness": 0.0
+            },
+            {
+              "client": 21,
+              "arrival": 160.40614878118447,
+              "start": 160.40614878118447,
+              "departure": 165.40614878118447,
+              "lateness": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "initial_best": {
+    "distance": 1048.172314148878,
+    "violation": 0.0,
+    "feasible": true,
+    "capacity_excess": 0.0,
+    "lateness": 0.0,
+    "return_excess": 0.0
+  },
+  "initial_feasible": 4,
+  "evaluations": 20000,
+  "local_evaluations": 3283,
+  "accepted_local": 201,
+  "generations": 214,
+  "first_feasible": 5,
+  "history": [
+    {
+      "evaluations": 200,
+      "distance": 1048.172314148878,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 1,
+      "local_evaluations": 15
+    },
+    {
+      "evaluations": 400,
+      "distance": 1048.172314148878,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 3,
+      "local_evaluations": 57
+    },
+    {
+      "evaluations": 600,
+      "distance": 1048.172314148878,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 5,
+      "local_evaluations": 94
+    },
+    {
+      "evaluations": 800,
+      "distance": 1048.172314148878,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 7,
+      "local_evaluations": 132
+    },
+    {
+      "evaluations": 1000,
+      "distance": 1048.172314148878,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 9,
+      "local_evaluations": 173
+    },
+    {
+      "evaluations": 1200,
+      "distance": 1048.172314148878,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 11,
+      "local_evaluations": 209
+    },
+    {
+      "evaluations": 1400,
+      "distance": 1048.172314148878,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 13,
+      "local_evaluations": 243
+    },
+    {
+      "evaluations": 1600,
+      "distance": 1048.172314148878,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 16,
+      "local_evaluations": 271
+    },
+    {
+      "evaluations": 1800,
+      "distance": 1048.172314148878,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 18,
+      "local_evaluations": 297
+    },
+    {
+      "evaluations": 2000,
+      "distance": 1048.172314148878,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 20,
+      "local_evaluations": 328
+    },
+    {
+      "evaluations": 2200,
+      "distance": 1048.172314148878,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 22,
+      "local_evaluations": 367
+    },
+    {
+      "evaluations": 2400,
+      "distance": 1048.172314148878,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 24,
+      "local_evaluations": 396
+    },
+    {
+      "evaluations": 2600,
+      "distance": 1048.172314148878,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 26,
+      "local_evaluations": 426
+    },
+    {
+      "evaluations": 2800,
+      "distance": 1048.172314148878,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 28,
+      "local_evaluations": 460
+    },
+    {
+      "evaluations": 3000,
+      "distance": 1031.0162253300437,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 31,
+      "local_evaluations": 492
+    },
+    {
+      "evaluations": 3200,
+      "distance": 1031.0162253300437,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 33,
+      "local_evaluations": 522
+    },
+    {
+      "evaluations": 3400,
+      "distance": 1031.0162253300437,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 35,
+      "local_evaluations": 556
+    },
+    {
+      "evaluations": 3600,
+      "distance": 1031.0162253300437,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 37,
+      "local_evaluations": 588
+    },
+    {
+      "evaluations": 3800,
+      "distance": 1031.0162253300437,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 39,
+      "local_evaluations": 619
+    },
+    {
+      "evaluations": 4000,
+      "distance": 1031.0162253300437,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 41,
+      "local_evaluations": 649
+    },
+    {
+      "evaluations": 4200,
+      "distance": 1000.5863348553542,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 44,
+      "local_evaluations": 683
+    },
+    {
+      "evaluations": 4400,
+      "distance": 968.8053477218837,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 46,
+      "local_evaluations": 718
+    },
+    {
+      "evaluations": 4600,
+      "distance": 968.8053477218837,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 48,
+      "local_evaluations": 758
+    },
+    {
+      "evaluations": 4800,
+      "distance": 968.8053477218837,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 50,
+      "local_evaluations": 794
+    },
+    {
+      "evaluations": 5000,
+      "distance": 968.8053477218837,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 52,
+      "local_evaluations": 835
+    },
+    {
+      "evaluations": 5200,
+      "distance": 968.8053477218837,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 54,
+      "local_evaluations": 866
+    },
+    {
+      "evaluations": 5400,
+      "distance": 968.8053477218837,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 56,
+      "local_evaluations": 906
+    },
+    {
+      "evaluations": 5600,
+      "distance": 968.8053477218837,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 58,
+      "local_evaluations": 943
+    },
+    {
+      "evaluations": 5800,
+      "distance": 968.8053477218837,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 60,
+      "local_evaluations": 979
+    },
+    {
+      "evaluations": 6000,
+      "distance": 968.5808105722015,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 62,
+      "local_evaluations": 1013
+    },
+    {
+      "evaluations": 6200,
+      "distance": 961.9777450625882,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 65,
+      "local_evaluations": 1045
+    },
+    {
+      "evaluations": 6400,
+      "distance": 961.9777450625882,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 67,
+      "local_evaluations": 1083
+    },
+    {
+      "evaluations": 6600,
+      "distance": 961.9777450625882,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 69,
+      "local_evaluations": 1115
+    },
+    {
+      "evaluations": 6800,
+      "distance": 961.753207912906,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 71,
+      "local_evaluations": 1146
+    },
+    {
+      "evaluations": 7000,
+      "distance": 961.753207912906,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 73,
+      "local_evaluations": 1179
+    },
+    {
+      "evaluations": 7200,
+      "distance": 961.753207912906,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 75,
+      "local_evaluations": 1212
+    },
+    {
+      "evaluations": 7400,
+      "distance": 961.753207912906,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 77,
+      "local_evaluations": 1247
+    },
+    {
+      "evaluations": 7600,
+      "distance": 961.753207912906,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 80,
+      "local_evaluations": 1274
+    },
+    {
+      "evaluations": 7800,
+      "distance": 961.753207912906,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 82,
+      "local_evaluations": 1303
+    },
+    {
+      "evaluations": 8000,
+      "distance": 961.753207912906,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 84,
+      "local_evaluations": 1326
+    },
+    {
+      "evaluations": 8200,
+      "distance": 961.753207912906,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 86,
+      "local_evaluations": 1362
+    },
+    {
+      "evaluations": 8400,
+      "distance": 961.753207912906,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 88,
+      "local_evaluations": 1396
+    },
+    {
+      "evaluations": 8600,
+      "distance": 961.753207912906,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 90,
+      "local_evaluations": 1426
+    },
+    {
+      "evaluations": 8800,
+      "distance": 961.753207912906,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 93,
+      "local_evaluations": 1452
+    },
+    {
+      "evaluations": 9000,
+      "distance": 961.753207912906,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 95,
+      "local_evaluations": 1499
+    },
+    {
+      "evaluations": 9200,
+      "distance": 961.753207912906,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 97,
+      "local_evaluations": 1538
+    },
+    {
+      "evaluations": 9400,
+      "distance": 961.3640848797918,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 99,
+      "local_evaluations": 1570
+    },
+    {
+      "evaluations": 9600,
+      "distance": 961.3640848797918,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 101,
+      "local_evaluations": 1607
+    },
+    {
+      "evaluations": 9800,
+      "distance": 961.3640848797918,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 103,
+      "local_evaluations": 1635
+    },
+    {
+      "evaluations": 10000,
+      "distance": 961.3640848797918,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 105,
+      "local_evaluations": 1667
+    },
+    {
+      "evaluations": 10200,
+      "distance": 961.3640848797918,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 108,
+      "local_evaluations": 1693
+    },
+    {
+      "evaluations": 10400,
+      "distance": 961.3640848797918,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 110,
+      "local_evaluations": 1722
+    },
+    {
+      "evaluations": 10600,
+      "distance": 961.3640848797918,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 112,
+      "local_evaluations": 1760
+    },
+    {
+      "evaluations": 10800,
+      "distance": 961.3640848797918,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 114,
+      "local_evaluations": 1800
+    },
+    {
+      "evaluations": 11000,
+      "distance": 961.3640848797918,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 116,
+      "local_evaluations": 1833
+    },
+    {
+      "evaluations": 11200,
+      "distance": 961.3640848797918,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 118,
+      "local_evaluations": 1870
+    },
+    {
+      "evaluations": 11400,
+      "distance": 961.3640848797918,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 120,
+      "local_evaluations": 1904
+    },
+    {
+      "evaluations": 11600,
+      "distance": 961.3640848797918,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 122,
+      "local_evaluations": 1934
+    },
+    {
+      "evaluations": 11800,
+      "distance": 961.3640848797918,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 125,
+      "local_evaluations": 1962
+    },
+    {
+      "evaluations": 12000,
+      "distance": 961.0312518468467,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 127,
+      "local_evaluations": 1992
+    },
+    {
+      "evaluations": 12200,
+      "distance": 961.0312518468467,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 129,
+      "local_evaluations": 2017
+    },
+    {
+      "evaluations": 12400,
+      "distance": 961.0312518468467,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 131,
+      "local_evaluations": 2052
+    },
+    {
+      "evaluations": 12600,
+      "distance": 961.0312518468467,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 133,
+      "local_evaluations": 2086
+    },
+    {
+      "evaluations": 12800,
+      "distance": 961.0312518468467,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 135,
+      "local_evaluations": 2119
+    },
+    {
+      "evaluations": 13000,
+      "distance": 961.0312518468467,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 137,
+      "local_evaluations": 2157
+    },
+    {
+      "evaluations": 13200,
+      "distance": 961.0312518468467,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 140,
+      "local_evaluations": 2194
+    },
+    {
+      "evaluations": 13400,
+      "distance": 961.0312518468467,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 142,
+      "local_evaluations": 2226
+    },
+    {
+      "evaluations": 13600,
+      "distance": 961.0312518468467,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 144,
+      "local_evaluations": 2261
+    },
+    {
+      "evaluations": 13800,
+      "distance": 961.0312518468467,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 146,
+      "local_evaluations": 2286
+    },
+    {
+      "evaluations": 14000,
+      "distance": 961.0312518468467,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 148,
+      "local_evaluations": 2311
+    },
+    {
+      "evaluations": 14200,
+      "distance": 961.0312518468467,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 150,
+      "local_evaluations": 2342
+    },
+    {
+      "evaluations": 14400,
+      "distance": 961.0312518468467,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 153,
+      "local_evaluations": 2377
+    },
+    {
+      "evaluations": 14600,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 155,
+      "local_evaluations": 2413
+    },
+    {
+      "evaluations": 14800,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 157,
+      "local_evaluations": 2443
+    },
+    {
+      "evaluations": 15000,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 159,
+      "local_evaluations": 2477
+    },
+    {
+      "evaluations": 15200,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 161,
+      "local_evaluations": 2511
+    },
+    {
+      "evaluations": 15400,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 163,
+      "local_evaluations": 2540
+    },
+    {
+      "evaluations": 15600,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 166,
+      "local_evaluations": 2566
+    },
+    {
+      "evaluations": 15800,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 168,
+      "local_evaluations": 2595
+    },
+    {
+      "evaluations": 16000,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 170,
+      "local_evaluations": 2623
+    },
+    {
+      "evaluations": 16200,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 172,
+      "local_evaluations": 2650
+    },
+    {
+      "evaluations": 16400,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 174,
+      "local_evaluations": 2680
+    },
+    {
+      "evaluations": 16600,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 177,
+      "local_evaluations": 2711
+    },
+    {
+      "evaluations": 16800,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 179,
+      "local_evaluations": 2746
+    },
+    {
+      "evaluations": 17000,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 181,
+      "local_evaluations": 2775
+    },
+    {
+      "evaluations": 17200,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 183,
+      "local_evaluations": 2816
+    },
+    {
+      "evaluations": 17400,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 185,
+      "local_evaluations": 2849
+    },
+    {
+      "evaluations": 17600,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 187,
+      "local_evaluations": 2876
+    },
+    {
+      "evaluations": 17800,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 189,
+      "local_evaluations": 2913
+    },
+    {
+      "evaluations": 18000,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 191,
+      "local_evaluations": 2944
+    },
+    {
+      "evaluations": 18200,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 194,
+      "local_evaluations": 2974
+    },
+    {
+      "evaluations": 18400,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 196,
+      "local_evaluations": 3001
+    },
+    {
+      "evaluations": 18600,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 198,
+      "local_evaluations": 3034
+    },
+    {
+      "evaluations": 18800,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 200,
+      "local_evaluations": 3065
+    },
+    {
+      "evaluations": 19000,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 202,
+      "local_evaluations": 3098
+    },
+    {
+      "evaluations": 19200,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 204,
+      "local_evaluations": 3136
+    },
+    {
+      "evaluations": 19400,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 207,
+      "local_evaluations": 3171
+    },
+    {
+      "evaluations": 19600,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 209,
+      "local_evaluations": 3214
+    },
+    {
+      "evaluations": 19800,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 211,
+      "local_evaluations": 3247
+    },
+    {
+      "evaluations": 20000,
+      "distance": 960.8859794067555,
+      "violation": 0.0,
+      "feasible": true,
+      "generations": 213,
+      "local_evaluations": 3283
+    }
+  ],
+  "seconds": 0.428794875042513,
+  "instance": "instance_40",
+  "data_hash": "4c7618f4f023909d6e096c616475686b25494fdeb5e43a0d52333ba0c3fb2c81",
+  "source_hashes": {
+    "algorithms.py": "f9e536405bab0450dfa2e4abc8a188f0d4f197e302df3a9a73b59b7575874c82",
+    "problem.py": "e8723563b15b83c6d287b0525609c5bfef76f397bb3e0e43eac6414c76d69c71"
+  }
+}

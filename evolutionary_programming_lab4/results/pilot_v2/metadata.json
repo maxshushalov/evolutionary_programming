@@ -1,0 +1,55 @@
+{
+  "config": {
+    "data_version": "v1",
+    "instances": [
+      {
+        "n": 20,
+        "vehicles": 3,
+        "seed": 202620
+      },
+      {
+        "n": 40,
+        "vehicles": 5,
+        "seed": 202640
+      },
+      {
+        "n": 60,
+        "vehicles": 7,
+        "seed": 202660
+      }
+    ],
+    "algorithm": {
+      "population_size": 80,
+      "elite_size": 2,
+      "tournament_size": 3,
+      "crossover_rate": 0.9,
+      "mutation_rate": 0.3,
+      "evaluation_budget": 20000,
+      "local_search_rate": 0.2,
+      "local_search_steps": 5,
+      "history_interval": 200,
+      "initialization": "mixed"
+    },
+    "seeds": {
+      "start": 1000,
+      "count": 30
+    },
+    "pilot": {
+      "start": 9001,
+      "count": 3,
+      "evaluation_budget": 3000
+    }
+  },
+  "python": "3.14.0",
+  "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+  "libraries": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.5.4"
+  },
+  "sources": {
+    "algorithms.py": "c78cf0e3ffb3dfa6a85f8d841d52f782984bece5f852af1c7ce850b7e712da20",
+    "problem.py": "e8723563b15b83c6d287b0525609c5bfef76f397bb3e0e43eac6414c76d69c71",
+    "run.py": "2fa16771c38021db130a1c7c17fc453ea945fafd6b8ac62fa20998a9507f9819",
+    "test_lab4.py": "c70bc05e462a98b88339d0655cadc11a591f9ec48a7a9f4da8ed3dbdbe047920"
+  }
+}

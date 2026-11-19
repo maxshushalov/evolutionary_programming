@@ -1,0 +1,20 @@
+[
+  {
+    "instance": "instance_20",
+    "method": "memetic",
+    "seed": 1000,
+    "distance": 587.4496321522525
+  },
+  {
+    "instance": "instance_40",
+    "method": "memetic",
+    "seed": 1009,
+    "distance": 940.7173859280583
+  },
+  {
+    "instance": "instance_60",
+    "method": "memetic",
+    "seed": 1016,
+    "distance": 1320.5903832657511
+  }
+]

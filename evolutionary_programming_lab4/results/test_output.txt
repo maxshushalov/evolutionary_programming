@@ -1,0 +1,21 @@
+test_budget_and_rejected_neighbors (test_lab4.Lab4Tests.test_budget_and_rejected_neighbors) ... ok
+test_empty_results_are_rejected (test_lab4.Lab4Tests.test_empty_results_are_rejected) ... ok
+test_exact_optimum_independently (test_lab4.Lab4Tests.test_exact_optimum_independently) ... ok
+test_feasibility_priority (test_lab4.Lab4Tests.test_feasibility_priority) ... ok
+test_generator (test_lab4.Lab4Tests.test_generator) ... ok
+test_geometric_initialization (test_lab4.Lab4Tests.test_geometric_initialization) ... ok
+test_hand_calculation_and_boundaries (test_lab4.Lab4Tests.test_hand_calculation_and_boundaries) ... ok
+test_independent_calculation (test_lab4.Lab4Tests.test_independent_calculation) ... ok
+test_invalid_encoding (test_lab4.Lab4Tests.test_invalid_encoding) ... ok
+test_invalid_parameters (test_lab4.Lab4Tests.test_invalid_parameters) ... ok
+test_operators_and_parents (test_lab4.Lab4Tests.test_operators_and_parents) ... ok
+test_partial_generation_best_preserved (test_lab4.Lab4Tests.test_partial_generation_best_preserved) ... ok
+test_reproducibility_and_shared_initialization (test_lab4.Lab4Tests.test_reproducibility_and_shared_initialization) ... ok
+test_saved_series_independently (test_lab4.Lab4Tests.test_saved_series_independently) ... ok
+test_summary_with_failures (test_lab4.Lab4Tests.test_summary_with_failures) ... ok
+test_validation_detects_result_corruption (test_lab4.Lab4Tests.test_validation_detects_result_corruption) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.819s
+
+OK

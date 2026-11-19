@@ -1,0 +1,800 @@
+{
+  "method": "memetic",
+  "seed": 9002,
+  "params": {
+    "population_size": 80,
+    "elite_size": 2,
+    "tournament_size": 3,
+    "crossover_rate": 0.9,
+    "mutation_rate": 0.3,
+    "evaluation_budget": 3000,
+    "local_search_rate": 0.2,
+    "local_search_steps": 5,
+    "history_interval": 200,
+    "initialization": "random"
+  },
+  "best": {
+    "solution": {
+      "permutation": [
+        52,
+        32,
+        39,
+        5,
+        9,
+        59,
+        25,
+        18,
+        8,
+        30,
+        55,
+        22,
+        29,
+        26,
+        47,
+        27,
+        17,
+        35,
+        41,
+        33,
+        4,
+        44,
+        49,
+        20,
+        37,
+        13,
+        45,
+        60,
+        21,
+        46,
+        58,
+        19,
+        42,
+        34,
+        54,
+        43,
+        10,
+        40,
+        1,
+        28,
+        14,
+        48,
+        23,
+        11,
+        7,
+        51,
+        6,
+        3,
+        57,
+        38,
+        12,
+        56,
+        31,
+        50,
+        53,
+        36,
+        24,
+        16,
+        2,
+        15
+      ],
+      "route_lengths": [
+        11,
+        10,
+        7,
+        8,
+        6,
+        7,
+        11
+      ]
+    },
+    "score": {
+      "distance": 2507.2489864575355,
+      "violation": 16.05292078664373,
+      "feasible": false,
+      "capacity_excess": 0.0,
+      "lateness": 5077.727507443691,
+      "return_excess": 594.5749310462395
+    },
+    "validation": {
+      "distance": 2507.2489864575355,
+      "violation": 16.05292078664373,
+      "feasible": false,
+      "capacity_excess": 0.0,
+      "lateness": 5077.727507443691,
+      "return_excess": 594.5749310462395,
+      "routes": [
+        {
+          "clients": [
+            52,
+            32,
+            39,
+            5,
+            9,
+            59,
+            25,
+            18,
+            8,
+            30,
+            55
+          ],
+          "load": 56,
+          "distance": 417.4267266307372,
+          "return_time": 463.39472864639026,
+          "capacity_excess": 0.0,
+          "return_excess": 110.04454933139783,
+          "visits": [
+            {
+              "client": 52,
+              "arrival": 40.75176738793275,
+              "start": 46.71976940358588,
+              "departure": 49.71976940358588,
+              "lateness": 0.0
+            },
+            {
+              "client": 32,
+              "arrival": 95.38369951867772,
+              "start": 95.38369951867772,
+              "departure": 99.38369951867772,
+              "lateness": 0.0
+            },
+            {
+              "client": 39,
+              "arrival": 112.12734475200051,
+              "start": 112.12734475200051,
+              "departure": 117.12734475200051,
+              "lateness": 0.0
+            },
+            {
+              "client": 5,
+              "arrival": 169.11740736754336,
+              "start": 169.11740736754336,
+              "departure": 174.11740736754336,
+              "lateness": 5.296735025250172
+            },
+            {
+              "client": 9,
+              "arrival": 227.24411326246383,
+              "start": 227.24411326246383,
+              "departure": 230.24411326246383,
+              "lateness": 50.96102787581134
+            },
+            {
+              "client": 59,
+              "arrival": 260.7825072254037,
+              "start": 260.7825072254037,
+              "departure": 262.7825072254037,
+              "lateness": 193.70489192191914
+            },
+            {
+              "client": 25,
+              "arrival": 324.782082124962,
+              "start": 324.782082124962,
+              "departure": 326.782082124962,
+              "lateness": 193.14570364057673
+            },
+            {
+              "client": 18,
+              "arrival": 347.08828058335735,
+              "start": 347.08828058335735,
+              "departure": 352.08828058335735,
+              "lateness": 125.28547013999795
+            },
+            {
+              "client": 8,
+              "arrival": 362.67490501346293,
+              "start": 362.67490501346293,
+              "departure": 364.67490501346293,
+              "lateness": 196.94008925360802
+            },
+            {
+              "client": 30,
+              "arrival": 400.4370393755255,
+              "start": 400.4370393755255,
+              "departure": 404.4370393755255,
+              "lateness": 245.48658805366657
+            },
+            {
+              "client": 55,
+              "arrival": 415.8680243715315,
+              "start": 415.8680243715315,
+              "departure": 420.8680243715315,
+              "lateness": 320.5970414617168
+            }
+          ]
+        },
+        {
+          "clients": [
+            22,
+            29,
+            26,
+            47,
+            27,
+            17,
+            35,
+            41,
+            33,
+            4
+          ],
+          "load": 50,
+          "distance": 423.893878342412,
+          "return_time": 457.893878342412,
+          "capacity_excess": 0.0,
+          "return_excess": 104.54369902741956,
+          "visits": [
+            {
+              "client": 22,
+              "arrival": 42.30558890833618,
+              "start": 42.30558890833618,
+              "departure": 45.30558890833618,
+              "lateness": 0.0
+            },
+            {
+              "client": 29,
+              "arrival": 110.45884658353737,
+              "start": 110.45884658353737,
+              "departure": 112.45884658353737,
+              "lateness": 0.8138701389877951
+            },
+            {
+              "client": 26,
+              "arrival": 127.33287751809529,
+              "start": 127.33287751809529,
+              "departure": 130.3328775180953,
+              "lateness": 51.75327159388213
+            },
+            {
+              "client": 47,
+              "arrival": 156.62781416188758,
+              "start": 156.62781416188758,
+              "departure": 158.62781416188758,
+              "lateness": 0.0
+            },
+            {
+              "client": 27,
+              "arrival": 167.83736841310161,
+              "start": 167.83736841310161,
+              "departure": 171.83736841310161,
+              "lateness": 0.0
+            },
+            {
+              "client": 17,
+              "arrival": 242.38333146923765,
+              "start": 242.38333146923765,
+              "departure": 247.38333146923765,
+              "lateness": 81.2845156210019
+            },
+            {
+              "client": 35,
+              "arrival": 250.40345277047598,
+              "start": 250.40345277047598,
+              "departure": 254.40345277047598,
+              "lateness": 173.18159155566315
+            },
+            {
+              "client": 41,
+              "arrival": 274.74689337092053,
+              "start": 274.74689337092053,
+              "departure": 278.74689337092053,
+              "lateness": 91.0619523377371
+            },
+            {
+              "client": 33,
+              "arrival": 382.47633931280757,
+              "start": 382.47633931280757,
+              "departure": 384.47633931280757,
+              "lateness": 259.1029927624996
+            },
+            {
+              "client": 4,
+              "arrival": 408.40004139695117,
+              "start": 408.40004139695117,
+              "departure": 413.40004139695117,
+              "lateness": 235.41692484876972
+            }
+          ]
+        },
+        {
+          "clients": [
+            44,
+            49,
+            20,
+            37,
+            13,
+            45,
+            60
+          ],
+          "load": 43,
+          "distance": 322.55201646116944,
+          "return_time": 449.26964482852424,
+          "capacity_excess": 0.0,
+          "return_excess": 95.9194655135318,
+          "visits": [
+            {
+              "client": 44,
+              "arrival": 24.245841670731107,
+              "start": 75.61956823451959,
+              "departure": 79.61956823451959,
+              "lateness": 0.0
+            },
+            {
+              "client": 49,
+              "arrival": 127.75183076222439,
+              "start": 181.09573256579068,
+              "departure": 184.09573256579068,
+              "lateness": 0.0
+            },
+            {
+              "client": 20,
+              "arrival": 194.73645568501996,
+              "start": 194.73645568501996,
+              "departure": 197.73645568501996,
+              "lateness": 0.0
+            },
+            {
+              "client": 37,
+              "arrival": 225.91590588009834,
+              "start": 225.91590588009834,
+              "departure": 227.91590588009834,
+              "lateness": 21.229754088851053
+            },
+            {
+              "client": 13,
+              "arrival": 272.3336723912077,
+              "start": 272.3336723912077,
+              "departure": 276.3336723912077,
+              "lateness": 157.0135705908216
+            },
+            {
+              "client": 45,
+              "arrival": 306.54652256055516,
+              "start": 306.54652256055516,
+              "departure": 309.54652256055516,
+              "lateness": 199.15678338396214
+            },
+            {
+              "client": 60,
+              "arrival": 390.57252304122215,
+              "start": 390.57252304122215,
+              "departure": 393.57252304122215,
+              "lateness": 205.7259991142823
+            }
+          ]
+        },
+        {
+          "clients": [
+            21,
+            46,
+            58,
+            19,
+            42,
+            34,
+            54,
+            43
+          ],
+          "load": 51,
+          "distance": 362.56137454188627,
+          "return_time": 416.5822996076456,
+          "capacity_excess": 0.0,
+          "return_excess": 63.23212029265318,
+          "visits": [
+            {
+              "client": 21,
+              "arrival": 41.01872478576319,
+              "start": 41.01872478576319,
+              "departure": 46.01872478576319,
+              "lateness": 0.0
+            },
+            {
+              "client": 46,
+              "arrival": 65.82926694406189,
+              "start": 85.85019200982121,
+              "departure": 89.85019200982121,
+              "lateness": 0.0
+            },
+            {
+              "client": 58,
+              "arrival": 175.48279032113746,
+              "start": 175.48279032113746,
+              "departure": 178.48279032113746,
+              "lateness": 3.8707646699935765
+            },
+            {
+              "client": 19,
+              "arrival": 219.9047761879106,
+              "start": 219.9047761879106,
+              "departure": 224.9047761879106,
+              "lateness": 57.69487100224754
+            },
+            {
+              "client": 42,
+              "arrival": 285.018925193674,
+              "start": 285.018925193674,
+              "departure": 290.018925193674,
+              "lateness": 31.780396952814925
+            },
+            {
+              "client": 34,
+              "arrival": 330.24072930860234,
+              "start": 330.24072930860234,
+              "departure": 335.24072930860234,
+              "lateness": 61.0140742358779
+            },
+            {
+              "client": 54,
+              "arrival": 339.20703955841105,
+              "start": 339.20703955841105,
+              "departure": 341.20703955841105,
+              "lateness": 123.38439686688884
+            },
+            {
+              "client": 43,
+              "arrival": 372.0723422586959,
+              "start": 372.0723422586959,
+              "departure": 377.0723422586959,
+              "lateness": 126.0993730123335
+            }
+          ]
+        },
+        {
+          "clients": [
+            10,
+            40,
+            1,
+            28,
+            14,
+            48
+          ],
+          "load": 34,
+          "distance": 186.35352665280794,
+          "return_time": 211.34669418453586,
+          "capacity_excess": 0.0,
+          "return_excess": 0.0,
+          "visits": [
+            {
+              "client": 10,
+              "arrival": 18.782498902868003,
+              "start": 18.782498902868003,
+              "departure": 21.782498902868003,
+              "lateness": 0.0
+            },
+            {
+              "client": 40,
+              "arrival": 66.67984820206473,
+              "start": 66.67984820206473,
+              "departure": 68.67984820206473,
+              "lateness": 0.0
+            },
+            {
+              "client": 1,
+              "arrival": 75.3718665324893,
+              "start": 75.3718665324893,
+              "departure": 77.3718665324893,
+              "lateness": 0.0
+            },
+            {
+              "client": 28,
+              "arrival": 100.07005382878815,
+              "start": 107.06322136051608,
+              "departure": 110.06322136051608,
+              "lateness": 0.0
+            },
+            {
+              "client": 14,
+              "arrival": 127.96595691990582,
+              "start": 127.96595691990582,
+              "departure": 131.9659569199058,
+              "lateness": 0.0
+            },
+            {
+              "client": 48,
+              "arrival": 160.12169844210615,
+              "start": 160.12169844210615,
+              "departure": 164.12169844210615,
+              "lateness": 0.0
+            }
+          ]
+        },
+        {
+          "clients": [
+            23,
+            11,
+            7,
+            51,
+            6,
+            3,
+            57
+          ],
+          "load": 44,
+          "distance": 443.9388065614809,
+          "return_time": 469.9388065614809,
+          "capacity_excess": 0.0,
+          "return_excess": 116.58862724648844,
+          "visits": [
+            {
+              "client": 23,
+              "arrival": 24.9736918290706,
+              "start": 24.9736918290706,
+              "departure": 26.9736918290706,
+              "lateness": 0.0
+            },
+            {
+              "client": 11,
+              "arrival": 86.15534425183726,
+              "start": 86.15534425183726,
+              "departure": 88.15534425183726,
+              "lateness": 0.0
+            },
+            {
+              "client": 7,
+              "arrival": 170.13881025957267,
+              "start": 170.13881025957267,
+              "departure": 175.13881025957267,
+              "lateness": 75.12421961934832
+            },
+            {
+              "client": 51,
+              "arrival": 225.93633748636358,
+              "start": 225.93633748636358,
+              "departure": 228.93633748636358,
+              "lateness": 0.0
+            },
+            {
+              "client": 6,
+              "arrival": 311.377593073571,
+              "start": 311.377593073571,
+              "departure": 316.377593073571,
+              "lateness": 88.18384466134313
+            },
+            {
+              "client": 3,
+              "arrival": 392.9788034865177,
+              "start": 392.9788034865177,
+              "departure": 397.9788034865177,
+              "lateness": 111.61631027799109
+            },
+            {
+              "client": 57,
+              "arrival": 447.8415107938617,
+              "start": 447.8415107938617,
+              "departure": 451.8415107938617,
+              "lateness": 388.4716252365457
+            }
+          ]
+        },
+        {
+          "clients": [
+            38,
+            12,
+            56,
+            31,
+            50,
+            53,
+            36,
+            24,
+            16,
+            2,
+            15
+          ],
+          "load": 66,
+          "distance": 350.52265726704167,
+          "return_time": 457.59664894974117,
+          "capacity_excess": 0.0,
+          "return_excess": 104.24646963474873,
+          "visits": [
+            {
+              "client": 38,
+              "arrival": 21.217865210823163,
+              "start": 90.29185689352273,
+              "departure": 93.29185689352273,
+              "lateness": 0.0
+            },
+            {
+              "client": 12,
+              "arrival": 108.45668665350672,
+              "start": 108.45668665350672,
+              "departure": 113.45668665350672,
+              "lateness": 0.0
+            },
+            {
+              "client": 56,
+              "arrival": 148.28537750377453,
+              "start": 148.28537750377453,
+              "departure": 152.28537750377453,
+              "lateness": 38.00978847893691
+            },
+            {
+              "client": 31,
+              "arrival": 181.89689683170292,
+              "start": 181.89689683170292,
+              "departure": 183.89689683170292,
+              "lateness": 98.60599157490012
+            },
+            {
+              "client": 50,
+              "arrival": 199.34398159594994,
+              "start": 199.34398159594994,
+              "departure": 204.34398159594994,
+              "lateness": 17.33545687569969
+            },
+            {
+              "client": 53,
+              "arrival": 240.95594922143636,
+              "start": 240.95594922143636,
+              "departure": 243.95594922143636,
+              "lateness": 34.89212309676009
+            },
+            {
+              "client": 36,
+              "arrival": 284.3139185655507,
+              "start": 284.3139185655507,
+              "departure": 289.3139185655507,
+              "lateness": 203.87341739687213
+            },
+            {
+              "client": 24,
+              "arrival": 318.85998555449567,
+              "start": 318.85998555449567,
+              "departure": 321.85998555449567,
+              "lateness": 30.147160849925797
+            },
+            {
+              "client": 16,
+              "arrival": 359.2027951509591,
+              "start": 359.2027951509591,
+              "departure": 361.2027951509591,
+              "lateness": 233.48011971404486
+            },
+            {
+              "client": 2,
+              "arrival": 394.7133668402558,
+              "start": 394.7133668402558,
+              "departure": 398.7133668402558,
+              "lateness": 154.62159520739297
+            },
+            {
+              "client": 15,
+              "arrival": 436.79931477973383,
+              "start": 436.79931477973383,
+              "departure": 438.79931477973383,
+              "lateness": 392.3632043047678
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "evaluations": 3000,
+  "local_evaluations": 1450,
+  "accepted_local": 508,
+  "generations": 19,
+  "first_feasible": null,
+  "history": [
+    {
+      "evaluations": 200,
+      "distance": null,
+      "violation": 28.21875219640781,
+      "feasible": false,
+      "generations": 0,
+      "local_evaluations": 62
+    },
+    {
+      "evaluations": 400,
+      "distance": null,
+      "violation": 28.127711106287325,
+      "feasible": false,
+      "generations": 1,
+      "local_evaluations": 180
+    },
+    {
+      "evaluations": 600,
+      "distance": null,
+      "violation": 22.258195549266926,
+      "feasible": false,
+      "generations": 3,
+      "local_evaluations": 275
+    },
+    {
+      "evaluations": 800,
+      "distance": null,
+      "violation": 22.258195549266926,
+      "feasible": false,
+      "generations": 4,
+      "local_evaluations": 385
+    },
+    {
+      "evaluations": 1000,
+      "distance": null,
+      "violation": 22.146411416148826,
+      "feasible": false,
+      "generations": 5,
+      "local_evaluations": 480
+    },
+    {
+      "evaluations": 1200,
+      "distance": null,
+      "violation": 21.78897853451586,
+      "feasible": false,
+      "generations": 7,
+      "local_evaluations": 569
+    },
+    {
+      "evaluations": 1400,
+      "distance": null,
+      "violation": 20.334449029549766,
+      "feasible": false,
+      "generations": 8,
+      "local_evaluations": 669
+    },
+    {
+      "evaluations": 1600,
+      "distance": null,
+      "violation": 20.334449029549766,
+      "feasible": false,
+      "generations": 9,
+      "local_evaluations": 768
+    },
+    {
+      "evaluations": 1800,
+      "distance": null,
+      "violation": 18.64067429664411,
+      "feasible": false,
+      "generations": 10,
+      "local_evaluations": 871
+    },
+    {
+      "evaluations": 2000,
+      "distance": null,
+      "violation": 18.440393438246076,
+      "feasible": false,
+      "generations": 12,
+      "local_evaluations": 964
+    },
+    {
+      "evaluations": 2200,
+      "distance": null,
+      "violation": 18.440393438246076,
+      "feasible": false,
+      "generations": 13,
+      "local_evaluations": 1070
+    },
+    {
+      "evaluations": 2400,
+      "distance": null,
+      "violation": 18.440393438246076,
+      "feasible": false,
+      "generations": 14,
+      "local_evaluations": 1163
+    },
+    {
+      "evaluations": 2600,
+      "distance": null,
+      "violation": 16.38536522452004,
+      "feasible": false,
+      "generations": 16,
+      "local_evaluations": 1262
+    },
+    {
+      "evaluations": 2800,
+      "distance": null,
+      "violation": 16.38536522452004,
+      "feasible": false,
+      "generations": 17,
+      "local_evaluations": 1359
+    },
+    {
+      "evaluations": 3000,
+      "distance": null,
+      "violation": 16.05292078664373,
+      "feasible": false,
+      "generations": 18,
+      "local_evaluations": 1450
+    }
+  ],
+  "seconds": 0.10846891702385619,
+  "instance": "instance_60",
+  "data_hash": "7e6562f5d833332ed1a6c8176e483f27e90fb05576bacfe39094acd6949342bd",
+  "source_hashes": {
+    "algorithms.py": "1754fda979909b4877ae1498fcbbc0c9a3b5d40756eac3e5339d80cd5cf3c4de",
+    "problem.py": "e8723563b15b83c6d287b0525609c5bfef76f397bb3e0e43eac6414c76d69c71"
+  }
+}

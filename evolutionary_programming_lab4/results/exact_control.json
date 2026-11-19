@@ -1,0 +1,27 @@
+{
+  "checked": 5040,
+  "best": {
+    "solution": {
+      "permutation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "route_lengths": [
+        3,
+        3
+      ]
+    },
+    "score": {
+      "distance": 13.152982445082948,
+      "violation": 0.0,
+      "feasible": true,
+      "capacity_excess": 0.0,
+      "lateness": 0.0,
+      "return_excess": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "main_runs": 210,
+  "evaluations": 4200000,
+  "unit_tests_passed": 16,
+  "independent_saved_solution_check": true,
+  "csv_consistency_check": true,
+  "same_seed_reproduction": true,
+  "historical_source_hashes_verified": true,
+  "markdown_local_links_verified": true,
+  "figures_visually_inspected": 13,
+  "tiny_exact_distance": 13.152982445082948,
+  "tiny_control_gap": {
+    "ga": 0.0,
+    "memetic": 0.0
+  },
+  "final_sources": {
+    "run.py": "0ee07bf867e43a89b49ec25008f7f8fb142dbe0ff2cf5b43c66d9d658bd598ab",
+    "algorithms.py": "f9e536405bab0450dfa2e4abc8a188f0d4f197e302df3a9a73b59b7575874c82",
+    "plots.py": "eb7f64c72acc525a2e8cf5c41d8f14f589f0893e09ad0878d2d846e534148184",
+    "problem.py": "e8723563b15b83c6d287b0525609c5bfef76f397bb3e0e43eac6414c76d69c71",
+    "test_lab4.py": "b98cdf32c40144a27a74c58aef3e196d383af5c0a2c9c66cb393718f82baeccc"
+  },
+  "final_documents": {
+    "TOPIC.md": "b135b81fe77dba6e144ac10103efee34d22ed71e31b45aaf7d2135d91ff2f940",
+    "REPORT.md": "9003d267b8f8c3e76a977f7b0ac2013af2dca0be06006005c160343c492bc415",
+    "DEMO.md": "9fb498a198b9f4ab6f9475219b01512f32fa511f83ca10b3c3652d553856ceac",
+    "README.md": "8fe8ee8d36ce8c6b545310eeba65bac68b83b79aae41db6d145e51e1aef8c7cf",
+    "PLAN.md": "dd729db6e9a6d08df5292e015e2aa63a11007d59c0fcf333a046b7628649a7e3",
+    "HOW_TO_READ.md": "2bb1802d6cc3ae4a8d5196be8ce192f86fef59ce8e5bb451de0acf25dd2ba752",
+    "PROTOCOL.md": "221921b4c0a521c8029e11d291f82fb83d69c4da5f61746d5eb26fd0daeadaca"
+  },
+  "review": {
+    "date": "2026-11-19",
+    "main_runs_repeated": 210,
+    "repeated_runs_match_except_seconds": true,
+    "runs_validated": {
+      "main": 210,
+      "pilot_v1": 18,
+      "pilot_v2": 18
+    },
+    "csv_files_matched": 3,
+    "figures_matched_byte_for_byte": 13,
+    "regenerated_input_and_exact_control_files_matched": 8
+  }
+}
